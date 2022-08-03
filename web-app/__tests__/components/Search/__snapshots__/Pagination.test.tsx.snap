@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination component it renders properly when there are no pages 1`] = `null`;
+
+exports[`Pagination component it renders properly when there is lots of pages 1`] = `
+<div
+  className="inline-flex items-center float-right"
+>
+  <p
+    className="font-secondary font-normal text-gray-100 text-base mr-5"
+  >
+    Page
+  </p>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer bg-white border border-gray-80 border-solid"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-red-100 text-base"
+    >
+      1
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      2
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      3
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      4
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      5
+    </p>
+  </div>
+  <div
+    className="mx-3"
+  >
+    <svg
+      className="cursor-pointer"
+      fill="none"
+      height="31"
+      onClick={[Function]}
+      viewBox="0 0 19 31"
+      width="19"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18 15.5L2.84783 30L1 28.2317L14.3043 15.5L1 2.76829L2.84783 1L18 15.5Z"
+        fill="#F23939"
+        stroke="#F23939"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Pagination component it renders properly when there is only one page 1`] = `
+<div
+  className="inline-flex items-center float-right"
+>
+  <p
+    className="font-secondary font-normal text-gray-100 text-base mr-5"
+  >
+    Page
+  </p>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer bg-white border border-gray-80 border-solid"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-red-100 text-base"
+    >
+      1
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Pagination component it renders properly when we are on page 3 1`] = `
+<div
+  className="inline-flex items-center float-right"
+>
+  <p
+    className="font-secondary font-normal text-gray-100 text-base mr-5"
+  >
+    Page
+  </p>
+  <div
+    className="mx-3"
+  >
+    <svg
+      className="cursor-pointer"
+      fill="none"
+      height="31"
+      onClick={[Function]}
+      viewBox="0 0 19 31"
+      width="19"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 15.5L16.1522 30L18 28.2317L4.69565 15.5L18 2.76829L16.1522 1L1 15.5Z"
+        fill="#F23939"
+        stroke="#F23939"
+      />
+    </svg>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      1
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      2
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer bg-white border border-gray-80 border-solid"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-red-100 text-base"
+    >
+      3
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      4
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      5
+    </p>
+  </div>
+  <div
+    className="mx-3"
+  >
+    <svg
+      className="cursor-pointer"
+      fill="none"
+      height="31"
+      onClick={[Function]}
+      viewBox="0 0 19 31"
+      width="19"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18 15.5L2.84783 30L1 28.2317L14.3043 15.5L1 2.76829L2.84783 1L18 15.5Z"
+        fill="#F23939"
+        stroke="#F23939"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Pagination component it renders properly when we are on the last page 1`] = `
+<div
+  className="inline-flex items-center float-right"
+>
+  <p
+    className="font-secondary font-normal text-gray-100 text-base mr-5"
+  >
+    Page
+  </p>
+  <div
+    className="mx-3"
+  >
+    <svg
+      className="cursor-pointer"
+      fill="none"
+      height="31"
+      onClick={[Function]}
+      viewBox="0 0 19 31"
+      width="19"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 15.5L16.1522 30L18 28.2317L4.69565 15.5L18 2.76829L16.1522 1L1 15.5Z"
+        fill="#F23939"
+        stroke="#F23939"
+      />
+    </svg>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      199
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      200
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer bg-white border border-gray-80 border-solid"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-red-100 text-base"
+    >
+      201
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Pagination component it renders properly when we are on the second to last page 1`] = `
+<div
+  className="inline-flex items-center float-right"
+>
+  <p
+    className="font-secondary font-normal text-gray-100 text-base mr-5"
+  >
+    Page
+  </p>
+  <div
+    className="mx-3"
+  >
+    <svg
+      className="cursor-pointer"
+      fill="none"
+      height="31"
+      onClick={[Function]}
+      viewBox="0 0 19 31"
+      width="19"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 15.5L16.1522 30L18 28.2317L4.69565 15.5L18 2.76829L16.1522 1L1 15.5Z"
+        fill="#F23939"
+        stroke="#F23939"
+      />
+    </svg>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      198
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      199
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer bg-white border border-gray-80 border-solid"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-red-100 text-base"
+    >
+      200
+    </p>
+  </div>
+  <div
+    className="mx-2 py-2 px-3 cursor-pointer"
+    onClick={[Function]}
+  >
+    <p
+      className="font-secondary font-normal text-gray-100 text-base"
+    >
+      201
+    </p>
+  </div>
+  <div
+    className="mx-3"
+  >
+    <svg
+      className="cursor-pointer"
+      fill="none"
+      height="31"
+      onClick={[Function]}
+      viewBox="0 0 19 31"
+      width="19"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18 15.5L2.84783 30L1 28.2317L14.3043 15.5L1 2.76829L2.84783 1L18 15.5Z"
+        fill="#F23939"
+        stroke="#F23939"
+      />
+    </svg>
+  </div>
+</div>
+`;

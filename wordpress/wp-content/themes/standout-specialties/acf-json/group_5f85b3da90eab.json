@@ -1,0 +1,43 @@
+{
+    "key": "group_5f85b3da90eab",
+    "title": "Truck Required",
+    "fields": [
+        {
+            "key": "field_5f85b3ec7c853",
+            "label": "Truck Info Required For Purchase?",
+            "name": "truck_info_required_for_purchase",
+            "type": "true_false",
+            "instructions": "If this box is checked it will trigger the truck selector form to show for this product. The user will not be able to add the product to their cart unless they've selected their truck year\/make\/model\/trim.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1602620177
+}

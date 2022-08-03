@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component it renders properly 1`] = `
+<button
+  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-white bg-red-100 hover:bg-red-200"
+  type="button"
+>
+  Click
+</button>
+`;
+
+exports[`Button component it renders properly when passed the link prop 1`] = `
+<a
+  href="https://joeyorlando.ca"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  <button
+    className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-white bg-red-100 hover:bg-red-200"
+    type="button"
+  >
+    Click
+  </button>
+</a>
+`;
+
+exports[`Button component it renders properly when passed the type prop 1`] = `
+<button
+  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-white bg-red-100 hover:bg-red-200"
+  type="submit"
+>
+  Submit
+</button>
+`;
+
+exports[`Button component it renders properly with inverted prop set to true 1`] = `
+<button
+  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+  type="button"
+>
+  Click
+</button>
+`;

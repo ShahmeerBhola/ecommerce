@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider component it renders properly 1`] = `
+<hr
+  className="my-10 w-20 mx-auto border-2 border-solid border-red-100"
+/>
+`;
+
+exports[`Divider component it renders properly with non-default props 1`] = `
+<hr
+  className="my-25 w-full mx-auto border-1 border-solid border-gray-400"
+/>
+`;

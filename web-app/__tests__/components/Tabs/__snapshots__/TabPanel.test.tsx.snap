@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabPanel component it renders properly when active is false 1`] = `
+<div
+  className="bg-gray-600 p-5 shadow-2xl hidden"
+>
+  <p>
+    Tab Panel
+  </p>
+</div>
+`;
+
+exports[`TabPanel component it renders properly when active is true 1`] = `
+<div
+  className="bg-gray-600 p-5 shadow-2xl block"
+>
+  <p>
+    Tab Panel
+  </p>
+</div>
+`;

@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component it renders properly for checkbox type 1`] = `
+Array [
+  <input
+    className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+    name="test_checkbox"
+    placeholder="Placeholder"
+    type="checkbox"
+    value="true"
+  />,
+  <label
+    htmlFor="test_checkbox"
+  >
+    Placeholder
+  </label>,
+]
+`;
+
+exports[`Input component it renders properly for checkbox type when disabled is false 1`] = `
+Array [
+  <input
+    className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+    disabled={false}
+    name="test_checkbox"
+    type="checkbox"
+    value="false"
+  />,
+  <label
+    htmlFor="test_checkbox"
+  />,
+]
+`;
+
+exports[`Input component it renders properly for checkbox type when disabled is true 1`] = `
+Array [
+  <input
+    className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+    disabled={true}
+    name="test_checkbox"
+    type="checkbox"
+    value="false"
+  />,
+  <label
+    htmlFor="test_checkbox"
+  />,
+]
+`;
+
+exports[`Input component it renders properly for other types 1`] = `
+<input
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+  disabled={true}
+  name="test_text"
+  onBlur={[Function]}
+  onChange={[Function]}
+  placeholder="This is the placeholder"
+  type="text"
+  value="yoooooo"
+/>
+`;
+
+exports[`Input component it renders properly for radio type when disabled prop is false 1`] = `
+Array [
+  <div>
+    <label
+      htmlFor="test_radio_foo"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        disabled={false}
+        id="test_radio_foo"
+        name="test_radio"
+        type="radio"
+        value="foo"
+      />
+      Foo
+    </label>
+  </div>,
+  <div>
+    <label
+      htmlFor="test_radio_bar"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        disabled={false}
+        id="test_radio_bar"
+        name="test_radio"
+        type="radio"
+        value="bar"
+      />
+      Bar
+    </label>
+  </div>,
+]
+`;
+
+exports[`Input component it renders properly for radio type when disabled prop is true 1`] = `
+Array [
+  <div>
+    <label
+      htmlFor="test_radio_foo"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        disabled={true}
+        id="test_radio_foo"
+        name="test_radio"
+        type="radio"
+        value="foo"
+      />
+      Foo
+    </label>
+  </div>,
+  <div>
+    <label
+      htmlFor="test_radio_bar"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        disabled={true}
+        id="test_radio_bar"
+        name="test_radio"
+        type="radio"
+        value="bar"
+      />
+      Bar
+    </label>
+  </div>,
+]
+`;
+
+exports[`Input component it renders properly for radio type when onChange and onBlur are provided 1`] = `
+Array [
+  <div>
+    <label
+      htmlFor="test_radio_foo"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        id="test_radio_foo"
+        name="test_radio"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="radio"
+        value="foo"
+      />
+      Foo
+    </label>
+  </div>,
+  <div>
+    <label
+      htmlFor="test_radio_bar"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        id="test_radio_bar"
+        name="test_radio"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="radio"
+        value="bar"
+      />
+      Bar
+    </label>
+  </div>,
+]
+`;
+
+exports[`Input component it renders properly for radio type when options is an empty array 1`] = `
+<p
+  className="font-secondary font-normal text-gray-100 text-base"
+/>
+`;
+
+exports[`Input component it renders properly for radio type when placeholder is blank string 1`] = `
+Array [
+  "",
+  <div>
+    <label
+      htmlFor="test_radio_foo"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        id="test_radio_foo"
+        name="test_radio"
+        type="radio"
+        value="foo"
+      />
+      Foo
+    </label>
+  </div>,
+  <div>
+    <label
+      htmlFor="test_radio_bar"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        id="test_radio_bar"
+        name="test_radio"
+        type="radio"
+        value="bar"
+      />
+      Bar
+    </label>
+  </div>,
+]
+`;
+
+exports[`Input component it renders properly for radio type when value is blank 1`] = `
+Array [
+  <div>
+    <label
+      htmlFor="test_radio_foo"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        id="test_radio_foo"
+        name="test_radio"
+        type="radio"
+        value="foo"
+      />
+      Foo
+    </label>
+  </div>,
+  <div>
+    <label
+      htmlFor="test_radio_bar"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        id="test_radio_bar"
+        name="test_radio"
+        type="radio"
+        value="bar"
+      />
+      Bar
+    </label>
+  </div>,
+]
+`;
+
+exports[`Input component it renders properly for radio type when value is non-blank 1`] = `
+Array [
+  <div>
+    <label
+      htmlFor="test_radio_foo"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={true}
+        id="test_radio_foo"
+        name="test_radio"
+        type="radio"
+        value="foo"
+      />
+      Foo
+    </label>
+  </div>,
+  <div>
+    <label
+      htmlFor="test_radio_bar"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        id="test_radio_bar"
+        name="test_radio"
+        type="radio"
+        value="bar"
+      />
+      Bar
+    </label>
+  </div>,
+]
+`;
+
+exports[`Input component it renders properly for radio type with placeholder 1`] = `
+Array [
+  <p
+    className="font-secondary font-normal text-gray-100 text-base"
+  >
+    This is the placeholder
+  </p>,
+  <div>
+    <label
+      htmlFor="test_radio_foo"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        id="test_radio_foo"
+        name="test_radio"
+        type="radio"
+        value="foo"
+      />
+      Foo
+    </label>
+  </div>,
+  <div>
+    <label
+      htmlFor="test_radio_bar"
+    >
+      <input
+        className="text-sm text-gray-200 p-3 focus:outline-none mr-5"
+        defaultChecked={false}
+        id="test_radio_bar"
+        name="test_radio"
+        type="radio"
+        value="bar"
+      />
+      Bar
+    </label>
+  </div>,
+]
+`;
+
+exports[`Input component it renders properly for textarea type 1`] = `
+<textarea
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+  name="test_textarea"
+  onBlur={[Function]}
+  onChange={[Function]}
+  placeholder="This is the placeholder"
+  rows={4}
+  value="yoooooo"
+/>
+`;
+
+exports[`Input component it renders properly when borderColor prop is supplied 1`] = `
+<input
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-red-200"
+  name="test_text"
+  type="text"
+  value=""
+/>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumberInput component it renders properly 1`] = `
+<input
+  min={1}
+  onChange={[Function]}
+  type="number"
+  value={5}
+/>
+`;

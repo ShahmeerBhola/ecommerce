@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price component it renders properly 1`] = `
+<p
+  className="font-secondary font-medium text-red-100 text-base"
+>
+  $24.99
+</p>
+`;
+
+exports[`Price component it renders properly with size prop 1`] = `
+<p
+  className="font-secondary font-medium text-red-100 text-2xl"
+>
+  $28.49
+</p>
+`;
+
+exports[`Price component it renders properly with weight prop 1`] = `
+<p
+  className="font-secondary font-bold text-red-100 text-base"
+>
+  $28.49
+</p>
+`;

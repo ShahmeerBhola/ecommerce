@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LineItems component it renders properly when hideDelete is false 1`] = `
+Array [
+  <div
+    className="flex items-center bg-white my-5 p-5"
+  >
+    <div
+      className="w-1/12 h-20"
+    >
+      <img
+        alt="No Product Image Placeholder"
+        className="w-full h-full"
+        src="/images/product_image_placeholder.png"
+      />
+    </div>
+    <div
+      className="w-6/12 px-3"
+    >
+      <a
+        href="/product/test-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="font-secondary font-normal text-black text-base font-semibold"
+        >
+          Test Item
+          
+        </p>
+      </a>
+      <p
+        className="font-secondary font-normal text-red-100 text-tiny mt-2"
+      >
+        Size - R20/SX120
+      </p>
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-normal text-gray-100 text-tiny"
+      >
+        Quantity
+      </p>
+      <input
+        min={1}
+        onChange={[Function]}
+        type="number"
+        value={25}
+      />
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-medium text-red-100 text-base"
+      >
+        $49.99
+      </p>
+    </div>
+    <div
+      className="w-1/12"
+    >
+      <button
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height="14"
+          viewBox="0 0 14 14"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M14 2L12 0L7 5L2 0L0 2L5 7L0 12L2 14L7 9L12 14L14 12L9 7L14 2Z"
+            fill="#DBDBDB"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+  <div
+    className="flex items-center bg-white my-5 p-5"
+  >
+    <div
+      className="w-1/12 h-20"
+    >
+      <img
+        alt=""
+        className="w-full h-full"
+        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+      />
+    </div>
+    <div
+      className="w-6/12 px-3"
+    >
+      <a
+        href="/product/test-item 2"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="font-secondary font-normal text-black text-base font-semibold"
+        >
+          Test Item 2
+          
+        </p>
+      </a>
+      <p
+        className="font-secondary font-normal text-red-100 text-tiny mt-2"
+      >
+        Size - R20/SX120
+      </p>
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-normal text-gray-100 text-tiny"
+      >
+        Quantity
+      </p>
+      <input
+        min={1}
+        onChange={[Function]}
+        type="number"
+        value={4}
+      />
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-medium text-red-100 text-base"
+      >
+        $599.49
+      </p>
+    </div>
+    <div
+      className="w-1/12"
+    >
+      <button
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height="14"
+          viewBox="0 0 14 14"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M14 2L12 0L7 5L2 0L0 2L5 7L0 12L2 14L7 9L12 14L14 12L9 7L14 2Z"
+            fill="#DBDBDB"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`LineItems component it renders properly when hideDelete is true 1`] = `
+Array [
+  <div
+    className="flex items-center bg-white my-5 p-5"
+  >
+    <div
+      className="w-1/12 h-20"
+    >
+      <img
+        alt="No Product Image Placeholder"
+        className="w-full h-full"
+        src="/images/product_image_placeholder.png"
+      />
+    </div>
+    <div
+      className="w-6/12 px-3"
+    >
+      <a
+        href="/product/test-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="font-secondary font-normal text-black text-base font-semibold"
+        >
+          Test Item
+          
+        </p>
+      </a>
+      <p
+        className="font-secondary font-normal text-red-100 text-tiny mt-2"
+      >
+        Size - R20/SX120
+      </p>
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-normal text-gray-100 text-tiny"
+      >
+        Quantity
+      </p>
+      <input
+        min={1}
+        onChange={[Function]}
+        type="number"
+        value={25}
+      />
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-medium text-red-100 text-base"
+      >
+        $49.99
+      </p>
+    </div>
+  </div>,
+  <div
+    className="flex items-center bg-white my-5 p-5"
+  >
+    <div
+      className="w-1/12 h-20"
+    >
+      <img
+        alt=""
+        className="w-full h-full"
+        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+      />
+    </div>
+    <div
+      className="w-6/12 px-3"
+    >
+      <a
+        href="/product/test-item 2"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="font-secondary font-normal text-black text-base font-semibold"
+        >
+          Test Item 2
+          
+        </p>
+      </a>
+      <p
+        className="font-secondary font-normal text-red-100 text-tiny mt-2"
+      >
+        Size - R20/SX120
+      </p>
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-normal text-gray-100 text-tiny"
+      >
+        Quantity
+      </p>
+      <input
+        min={1}
+        onChange={[Function]}
+        type="number"
+        value={4}
+      />
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-medium text-red-100 text-base"
+      >
+        $599.49
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`LineItems component it renders properly when hideQuantity is false 1`] = `
+Array [
+  <div
+    className="flex items-center bg-white my-5 p-5"
+  >
+    <div
+      className="w-1/12 h-20"
+    >
+      <img
+        alt="No Product Image Placeholder"
+        className="w-full h-full"
+        src="/images/product_image_placeholder.png"
+      />
+    </div>
+    <div
+      className="w-6/12 px-3"
+    >
+      <a
+        href="/product/test-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="font-secondary font-normal text-black text-base font-semibold"
+        >
+          Test Item
+          
+        </p>
+      </a>
+      <p
+        className="font-secondary font-normal text-red-100 text-tiny mt-2"
+      >
+        Size - R20/SX120
+      </p>
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-normal text-gray-100 text-tiny"
+      >
+        Quantity
+      </p>
+      <input
+        min={1}
+        onChange={[Function]}
+        type="number"
+        value={25}
+      />
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-medium text-red-100 text-base"
+      >
+        $49.99
+      </p>
+    </div>
+    <div
+      className="w-1/12"
+    >
+      <button
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height="14"
+          viewBox="0 0 14 14"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M14 2L12 0L7 5L2 0L0 2L5 7L0 12L2 14L7 9L12 14L14 12L9 7L14 2Z"
+            fill="#DBDBDB"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+  <div
+    className="flex items-center bg-white my-5 p-5"
+  >
+    <div
+      className="w-1/12 h-20"
+    >
+      <img
+        alt=""
+        className="w-full h-full"
+        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+      />
+    </div>
+    <div
+      className="w-6/12 px-3"
+    >
+      <a
+        href="/product/test-item 2"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="font-secondary font-normal text-black text-base font-semibold"
+        >
+          Test Item 2
+          
+        </p>
+      </a>
+      <p
+        className="font-secondary font-normal text-red-100 text-tiny mt-2"
+      >
+        Size - R20/SX120
+      </p>
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-normal text-gray-100 text-tiny"
+      >
+        Quantity
+      </p>
+      <input
+        min={1}
+        onChange={[Function]}
+        type="number"
+        value={4}
+      />
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-medium text-red-100 text-base"
+      >
+        $599.49
+      </p>
+    </div>
+    <div
+      className="w-1/12"
+    >
+      <button
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height="14"
+          viewBox="0 0 14 14"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M14 2L12 0L7 5L2 0L0 2L5 7L0 12L2 14L7 9L12 14L14 12L9 7L14 2Z"
+            fill="#DBDBDB"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`LineItems component it renders properly when hideQuantity is true 1`] = `
+Array [
+  <div
+    className="flex items-center bg-white my-5 p-5"
+  >
+    <div
+      className="w-1/12 h-20"
+    >
+      <img
+        alt="No Product Image Placeholder"
+        className="w-full h-full"
+        src="/images/product_image_placeholder.png"
+      />
+    </div>
+    <div
+      className="w-6/12 px-3"
+    >
+      <a
+        href="/product/test-item"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="font-secondary font-normal text-black text-base font-semibold"
+        >
+          Test Item
+          
+        </p>
+      </a>
+      <p
+        className="font-secondary font-normal text-red-100 text-tiny mt-2"
+      >
+        Size - R20/SX120
+      </p>
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-medium text-red-100 text-base"
+      >
+        $49.99
+      </p>
+    </div>
+    <div
+      className="w-1/12"
+    >
+      <button
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height="14"
+          viewBox="0 0 14 14"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M14 2L12 0L7 5L2 0L0 2L5 7L0 12L2 14L7 9L12 14L14 12L9 7L14 2Z"
+            fill="#DBDBDB"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+  <div
+    className="flex items-center bg-white my-5 p-5"
+  >
+    <div
+      className="w-1/12 h-20"
+    >
+      <img
+        alt=""
+        className="w-full h-full"
+        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+      />
+    </div>
+    <div
+      className="w-6/12 px-3"
+    >
+      <a
+        href="/product/test-item 2"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <p
+          className="font-secondary font-normal text-black text-base font-semibold"
+        >
+          Test Item 2
+          
+        </p>
+      </a>
+      <p
+        className="font-secondary font-normal text-red-100 text-tiny mt-2"
+      >
+        Size - R20/SX120
+      </p>
+    </div>
+    <div
+      className="w-2/12"
+    >
+      <p
+        className="font-secondary font-medium text-red-100 text-base"
+      >
+        $599.49
+      </p>
+    </div>
+    <div
+      className="w-1/12"
+    >
+      <button
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height="14"
+          viewBox="0 0 14 14"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M14 2L12 0L7 5L2 0L0 2L5 7L0 12L2 14L7 9L12 14L14 12L9 7L14 2Z"
+            fill="#DBDBDB"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>,
+]
+`;

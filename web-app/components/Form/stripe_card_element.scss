@@ -1,0 +1,19 @@
+$gray-background: rgb(243, 243, 243);
+$gray-border: rgb(204, 209, 217);
+$red-border: rgb(242, 57, 57);
+
+.sos-stripe-card-element {
+    background-color: $gray-background;
+    height: 50px;
+    padding: 0.75rem;
+    padding-bottom: 0.65rem;
+    padding-top: 0.85rem;
+
+    &:not(.error) {
+        border: 1px solid $gray-border;
+    }
+
+    &.error {
+        border: 1px solid $red-border;
+    }
+}

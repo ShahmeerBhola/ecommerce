@@ -1,0 +1,92 @@
+version: "3.8"
+
+services:
+    sos-caddy:
+        depends_on:
+            - sos-web-app
+            - sos-wordpress
+        image: "caddy:2.0.0"
+        container_name: sos-caddy
+        volumes:
+            - ./caddy/certs:/root/certs:delegated
+            - ./caddy/Caddyfile:/etc/caddy/Caddyfile:delegated
+        ports:
+            - "443:443"
+            - "80:80"
+
+    sos-db:
+        image: mariadb:10.4.15
+        container_name: sos-db
+        environment:
+            MYSQL_ROOT_PASSWORD: so_spec
+            MYSQL_DATABASE: so_spec
+            MYSQL_USER: so_spec
+            MYSQL_PASSWORD: so_spec
+        volumes:
+            - sos_db_data:/var/lib/mysql:delegated
+            - ./docker/seed_database.sql:/docker-entrypoint-initdb.d/seed_database.sql
+        ports:
+            - "3306:3306"
+
+    sos-wordpress:
+        depends_on:
+            - sos-db
+        image: sos-wordpress:latest
+        user: www-data
+        container_name: sos-wordpress
+        command: bash -c 'install_wordpress && apache2-foreground'
+        environment:
+            WORDPRESS_VERSION: 5.5.1
+            WORDPRESS_LOCALE: en_US
+            WORDPRESS_DB_HOST: sos-db:3306
+            WORDPRESS_DB_USER: so_spec
+            WORDPRESS_DB_PASSWORD: so_spec
+            WORDPRESS_DB_NAME: so_spec
+            WORDPRESS_DB_PREFIX: wp_Lkxmq2CP_
+            WORDPRESS_DB_CHARSET: utf8
+            WORDPRESS_DB_COLLATION: utf8_general_ci
+            WORDPRESS_SENDGRID_API_KEY: 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
+            WORDPRESS_SENDGRID_SEND_METHOD: api
+            WORDPRESS_SENDGRID_FROM_NAME: Standout Specialties
+            WORDPRESS_SENDGRID_FROM_EMAIL: info@standoutspecialties.com
+            WORDPRESS_SENDGRID_CONTENT_TYPE: html
+            WORDPRESS_FORM_SUBMISSION_TO_EMAIL: joseph.t.orlando@gmail.com
+            WORDPRESS_STRIPE_API_SECRET_KEY: sk_test_4QXwtW5FSTXzkhv86tWuGd4W00kuBuWyoZ
+            WORDPRESS_HEADLESS_FRONTEND_ORIGIN: https://standoutspecialties.local
+        volumes:
+            - ./wordpress:/var/www/html:delegated
+        ports:
+            - "8000:8000"
+
+    sos-web-app:
+        depends_on:
+            - sos-wordpress
+        build:
+            context: ./web-app
+        container_name: sos-web-app
+        environment:
+            WORDPRESS_API_URL: https://wordpress.standoutspecialties.local/wp-json/api/v1
+            # The below environment variable needs to be set. The reason why is that we are making HTTPS calls from inside this container to a server using self-signed-certs (with mkcert).
+            # The CA certs have not been added to this container (because it'd be a pain in the a$$) so therefore all TLS calls will fail saying the cert cannot be validated
+            # This variable makes TLS connections and HTTPS requests insecure by disabling certificate verification
+            # This is fine because we are only using docker-compose for local development
+            # https://stackoverflow.com/a/21961005/3902555
+            NODE_TLS_REJECT_UNAUTHORIZED: 0
+        volumes:
+            # https://dev.to/codemochi/hot-module-reloading-with-next-js-docker-development-environment-in-4-steps-32i8
+            - ./web-app:/app
+            - /app/node_modules
+            - /app/.next
+        ports:
+            - "3000:3000"
+        extra_hosts:
+            # This will add an extra entry to /etc/hosts inside of this container
+            # This is needed because WooCommerce REST API ENFORCES HTTPS. I could not think of a way
+            # to make call from one container to another over HTTPS
+            # Instead, what this does is basically says for this URL map it to the docker host machine IP
+            # Effectively we're making a call from inside one docker container to the outside of docker
+            # and then back in. This allows us to use HTTPS
+            - "wordpress.standoutspecialties.local:$DOCKERHOST"
+
+volumes:
+    sos_db_data: {}

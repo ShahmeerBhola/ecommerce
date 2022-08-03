@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemsInTheCart component it renders properly when quantity = 0 1`] = `
+<p
+  className="font-secondary font-normal text-gray-100 text-base"
+>
+  Items in the cart  
+  <span
+    className="text-red-200"
+  >
+    0
+  </span>
+</p>
+`;
+
+exports[`ItemsInTheCart component it renders properly when quantity > 0 1`] = `
+<p
+  className="font-secondary font-normal text-gray-100 text-base"
+>
+  Items in the cart  
+  <span
+    className="text-red-200"
+  >
+    5
+  </span>
+</p>
+`;

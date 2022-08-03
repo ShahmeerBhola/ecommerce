@@ -1,0 +1,8 @@
+node_modules
+.next
+yarn-error.log
+
+# all of the below files will get generated at build time
+public/sitemap.xml
+public/workbox-*.js*
+public/sw.js*

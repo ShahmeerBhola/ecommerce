@@ -1,0 +1,134 @@
+$input-number-prefix: rc-input-number;
+
+.rc-input-number {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    transition: all 3s;
+    vertical-align: middle;
+
+    &-focused {
+        border-color: #1890ff;
+        box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    }
+
+    &-handler {
+        display: block;
+        height: 12px;
+        line-height: 12px;
+        overflow: hidden;
+        text-align: center;
+        touch-action: none;
+
+        &-active {
+            background: #ddd;
+        }
+    }
+
+    &-handler-up-inner,
+    &-handler-down-inner {
+        color: #666;
+        user-select: none;
+    }
+
+    &:hover,
+    &:focus {
+        border-color: #1890ff;
+
+        .#{input-number-prefix}-handler-up,
+        .#{input-number-prefix}-handler-wrap {
+            border-color: #1890ff;
+        }
+    }
+
+    &-disabled:hover,
+    &-disabled:focus {
+        border-color: #d9d9d9;
+
+        .#{input-number-prefix}-handler-up,
+        .#{input-number-prefix}-handler-wrap {
+            border-color: #d9d9d9;
+        }
+    }
+
+    &-input-wrap {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    &-input {
+        appearance: textfield;
+        border: 0;
+        border-radius: 4px;
+        color: #666;
+        height: 100%;
+        line-height: 26px;
+        outline: 0;
+        padding: 0;
+        text-align: center;
+        transition: all 0.3s ease;
+        width: 100%;
+    }
+
+    &-handler-wrap {
+        border-left: 1px solid #d9d9d9;
+        float: right;
+        height: 100%;
+        transition: all 3s;
+        width: 20px;
+    }
+
+    &-handler-up {
+        border-bottom: 1px solid #d9d9d9;
+        padding-top: 1px;
+        transition: all 3s;
+
+        &-inner {
+            &::after {
+                content: '+';
+            }
+        }
+    }
+
+    &-handler-down {
+        transition: all 3s;
+
+        &-inner {
+            &::after {
+                content: '-';
+            }
+        }
+    }
+
+    @mixin handler-disabled() {
+        opacity: 0.72;
+
+        &:hover,
+        &:focus {
+            border-color: #d9d9d9;
+            color: #999;
+        }
+    }
+
+    &-handler-down-disabled,
+    &-handler-up-disabled {
+        @include handler-disabled();
+    }
+
+    &-disabled {
+        .#{input-number-prefix}-input {
+            background-color: #f3f3f3;
+            cursor: not-allowed;
+            opacity: 0.72;
+        }
+
+        .#{input-number-prefix}-handler {
+            @include handler-disabled();
+        }
+    }
+}

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo component it renders properly with renderLink set to false 1`] = `
+<img
+  alt="Standout Specialties"
+  className="mx-auto"
+  height={79}
+  src="https://storage.googleapis.com/standout-specialties-public-assets/logo.png"
+  width={161}
+/>
+`;
+
+exports[`Logo component it renders properly with renderLink set to true 1`] = `
+<a
+  href="/"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  <img
+    alt="Standout Specialties"
+    className="mx-auto"
+    height={79}
+    src="https://storage.googleapis.com/standout-specialties-public-assets/logo.png"
+    width={161}
+  />
+</a>
+`;

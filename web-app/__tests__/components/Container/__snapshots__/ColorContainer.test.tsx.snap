@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorContainer component it renders properly 1`] = `
+<div
+  className="bg-gray-300"
+>
+  <div
+    className="container mx-auto px-5 md:py-20 py-5 min-h-80"
+  >
+    <p>
+      Hello
+    </p>
+  </div>
+</div>
+`;
+
+exports[`ColorContainer component it renders properly with non-default props 1`] = `
+<div
+  className="bg-gray-300"
+>
+  <div
+    className="container mx-auto px-5 md:py-20 py-5 500 hello-there"
+  >
+    <p>
+      Hello
+    </p>
+  </div>
+</div>
+`;

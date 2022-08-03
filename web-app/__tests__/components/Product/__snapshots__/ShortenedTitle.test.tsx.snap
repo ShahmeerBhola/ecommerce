@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeaturedProduct component it renders properly when className prop is provided 1`] = `
+<p
+  className="font-secondary font-normal text-black text-base my-class-name uppercase font-bold"
+>
+  My Product Title
+  
+</p>
+`;
+
+exports[`FeaturedProduct component it renders properly when fontWeight prop is provided 1`] = `
+<p
+  className="font-secondary font-normal text-black text-base uppercase font-extrabold"
+>
+  My Product Title
+  
+</p>
+`;
+
+exports[`FeaturedProduct component it renders properly when title length is less than maxLength 1`] = `
+<p
+  className="font-secondary font-normal text-black text-base uppercase font-bold"
+>
+  My Product Title
+  
+</p>
+`;
+
+exports[`FeaturedProduct component it renders properly when title length is more than maxLength 1`] = `
+<p
+  className="font-secondary font-normal text-black text-base uppercase font-bold"
+>
+  My Pr
+  ...
+</p>
+`;
+
+exports[`FeaturedProduct component it renders properly when uppercase prop is false 1`] = `
+<p
+  className="font-secondary font-normal text-black text-base font-bold"
+>
+  My Product Title
+  
+</p>
+`;
+
+exports[`FeaturedProduct component it renders properly when uppercase prop is true 1`] = `
+<p
+  className="font-secondary font-normal text-black text-base uppercase font-bold"
+>
+  My Product Title
+  
+</p>
+`;

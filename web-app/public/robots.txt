@@ -1,0 +1,7 @@
+Sitemap: https://standoutspecialties.com/sitemap.xml
+
+User-agent: *
+Disallow: /cart
+Disallow: /checkout
+Disallow: /order_confirmation
+Disallow: /search

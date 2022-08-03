@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductBrand Cube component it renders properly 1`] = `
+<div
+  className="h-cube p-2 box-border 250"
+>
+  <a
+    href="/brand/test-brand-5"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <img
+      alt="Test Brand"
+      src="https://images.customwheeloffset.com/brand-logos/Fuel.png"
+    />
+  </a>
+</div>
+`;

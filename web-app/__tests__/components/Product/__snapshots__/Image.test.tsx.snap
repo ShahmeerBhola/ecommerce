@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Image component it renders properly when className is provided 1`] = `
+<div
+  className="w-20 h-20 relative"
+>
+  <img
+    alt="No Product Image Placeholder"
+    className="hello-there"
+    src="/images/product_image_placeholder.png"
+  />
+</div>
+`;
+
+exports[`Product Image component it renders properly when image is null 1`] = `
+<div
+  className="w-20 h-20 relative"
+>
+  <img
+    alt="No Product Image Placeholder"
+    className="w-full h-full"
+    src="/images/product_image_placeholder.png"
+  />
+</div>
+`;
+
+exports[`Product Image component it renders properly when passed an image 1`] = `
+<div
+  className="w-20 h-20 relative"
+>
+  <img
+    alt=""
+    className="w-full h-full"
+    src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+  />
+</div>
+`;
+
+exports[`Product Image component it renders properly when wrapperClassName is provided 1`] = `
+<div
+  className="wrapper-hello-there"
+>
+  <img
+    alt="No Product Image Placeholder"
+    className="w-full h-full"
+    src="/images/product_image_placeholder.png"
+  />
+</div>
+`;

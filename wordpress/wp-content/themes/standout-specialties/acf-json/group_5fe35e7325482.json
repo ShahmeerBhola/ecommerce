@@ -1,0 +1,45 @@
+{
+    "key": "group_5fe35e7325482",
+    "title": "Prioritized Search Result",
+    "fields": [
+        {
+            "key": "field_5fe35e7d82524",
+            "label": "Prioritized Search Result",
+            "name": "prioritized_search_result",
+            "type": "number",
+            "instructions": "If this is set to a value this product will be considered a priority search result. Prioritized search results are shown first. The number assigned here is used for sorting amongst the priority search results. They are shown in DESCENDING order (ie. 2 will be shown before 1).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1608753257
+}

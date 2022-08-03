@@ -1,0 +1,37 @@
+/* Order product meta */
+
+.sos-product-meta {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em -0.5em -0.5em;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.sos-product-meta__item {
+    display: flex;
+    margin: 0.25em;
+    color: var(--wp-admin-theme-color);
+    border: 1px solid;
+    border-radius: 2em;
+    overflow: hidden;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.sos-product-meta__item > div {
+    padding: 0.25em 0.75em;
+}
+
+.sos-product-meta__item span {
+    background: var(--wp-admin-theme-color);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0.25em 0.75em;
+}
+
+#order_line_items .item:hover .sos-product-meta__item {
+    opacity: 0.8;
+}

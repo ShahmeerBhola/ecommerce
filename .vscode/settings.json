@@ -1,0 +1,36 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "phpcs.executablePath": "./wordpress/vendor/bin/phpcs",
+    "phpcs.standard": "PSR2",
+    "phpcs.ignorePatterns": [
+        "./wordpress/wp-admin",
+        "./wordpress/vendor/*",
+        "./wordpress/wp-includes",
+        "./wordpress/wp-content/plugins",
+        "./wordpress/wp-*.php"
+    ],
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.formatHtml": true,
+    "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.exclude": [
+        "./wordpress/wp-admin",
+        "./wordpress/vendor/*",
+        "./wordpress/wp-includes",
+        "./wordpress/wp-content/plugins",
+        "./wordpress/wp-*.php"
+    ],
+    "python.formatting.provider": "yapf"
+}

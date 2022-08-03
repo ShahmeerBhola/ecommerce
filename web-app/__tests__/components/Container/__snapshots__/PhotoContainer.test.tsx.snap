@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component it renders properly 1`] = `
+<div
+  className="bg-no-repeat bg-cover"
+  style={
+    Object {
+      "backgroundImage": "url(/images/my-truck.png)",
+    }
+  }
+>
+  <div
+    className="container mx-auto px-5 md:py-20 py-5 min-h-80"
+  >
+    <p>
+      Hello
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Container component it renders properly when backgroundCover is set to true 1`] = `
+<div
+  className="bg-no-repeat bg-cover"
+  style={
+    Object {
+      "backgroundImage": "url(/images/my-truck3.png)",
+    }
+  }
+>
+  <div
+    className="container mx-auto px-5 md:py-20 py-5 min-h-80"
+  >
+    <p>
+      Hello
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Container component it renders properly with non-default props 1`] = `
+<div
+  className="bg-no-repeat background-class-name"
+  style={
+    Object {
+      "backgroundImage": "url(/images/my-truck2.png)",
+    }
+  }
+>
+  <div
+    className="container mx-auto px-5 md:py-20 py-5 50 hello-there"
+  >
+    <p>
+      Hello
+    </p>
+  </div>
+</div>
+`;

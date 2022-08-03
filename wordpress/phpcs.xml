@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ruleset name="StandoutSpecialties">
+    <description>Standout Specialties phpcs standard</description>
+    <rule ref="PSR2"/>
+</ruleset>

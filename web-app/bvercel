@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "build": {
+        "env": {
+            "NODE_ENV": "production",
+            "WORDPRESS_API_URL": "https://ecommerce-sandy.vercel.app/api/",
+            "SENTRY_AUTH_TOKEN": "487ce8dcecf04c5abbc0f13069f4c1c9638103c413bb4a799e23067dcdd74d73",
+            "SENTRY_DSN": "https://d30e5f334eb34d83acab9f9c96e9bbb0@o404207.ingest.sentry.io/5267575",
+            "SENTRY_ORG": "standout-specialties",
+            "SENTRY_PROJECT": "ecommerce-app"
+        }
+    },
+    "cleanUrls": true,
+    "trailingSlash": false
+}

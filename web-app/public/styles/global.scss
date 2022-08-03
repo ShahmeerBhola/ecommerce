@@ -1,0 +1,6 @@
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+
+// Need to keep utilities import last https://stackoverflow.com/a/61067059/3902555
+@import '~tailwindcss/utilities';
+@import './nprogress';

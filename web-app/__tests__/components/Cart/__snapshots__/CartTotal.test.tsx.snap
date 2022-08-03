@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartTotal component it renders properly 1`] = `
+<p
+  className="font-secondary font-normal text-gray-100 text-base"
+>
+  Total  
+  <p
+    className="font-secondary font-medium text-red-100 text-lg"
+  >
+    $0.00
+  </p>
+</p>
+`;

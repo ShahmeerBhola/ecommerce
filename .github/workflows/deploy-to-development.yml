@@ -1,0 +1,70 @@
+# https://github.com/GoogleCloudPlatform/github-actions/blob/master/example-workflows/gae/.github/workflows/app-engine.yml
+name: Deploy to Development
+on:
+  push:
+    branches:
+      - master
+jobs:
+  checkout-build-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: build
+        run: ./build.sh
+        working-directory: ./wordpress
+        env:
+          # majority of the below environment variables are used so
+          # we can deterministically build wp-config.php each time
+          DB_NAME: ${{ secrets.DEV_DB_NAME }}
+          DB_USER: ${{ secrets.DEV_DB_USER }}
+          DB_PASS: ${{ secrets.DEV_DB_PASS }}
+          DB_PASSWORD: ${{ secrets.DEV_DB_PASS }}
+          DB_HOST: ${{ secrets.DEV_DB_HOST }}
+          DB_PREFIX: ${{ secrets.DEV_DB_PREFIX }}
+          DB_CHARSET: utf8
+          DB_COLLATE: utf8_general_ci
+          AUTH_KEY: ${{ secrets.DEV_AUTH_KEY }}
+          SECURE_AUTH_KEY: ${{ secrets.DEV_SECURE_AUTH_KEY }}
+          LOGGED_IN_KEY: ${{ secrets.DEV_LOGGED_IN_KEY }}
+          NONCE_KEY: ${{ secrets.DEV_NONCE_KEY }}
+          AUTH_SALT: ${{ secrets.DEV_AUTH_SALT }}
+          SECURE_AUTH_SALT: ${{ secrets.DEV_SECURE_AUTH_SALT }}
+          LOGGED_IN_SALT: ${{ secrets.DEV_LOGGED_IN_SALT }}
+          NONCE_SALT: ${{ secrets.DEV_NONCE_SALT }}
+          SENDGRID_API_KEY: ${{ secrets.DEV_SENDGRID_API_KEY }}
+          SENDGRID_SEND_METHOD: api
+          SENDGRID_FROM_NAME: Standout Specialties
+          SENDGRID_FROM_EMAIL: info@standoutspecialties.com
+          SENDGRID_CONTENT_TYPE: html
+          FORM_SUBMISSION_TO_EMAIL: aaron@standoutspecialties.com
+          STRIPE_API_SECRET_KEY: ${{ secrets.DEV_STRIPE_API_SECRET_KEY }}
+          HEADLESS_FRONTEND_ORIGIN: https://standoutspecialties.com
+      - name: Deploy to dev server with rsync
+        uses: burnett01/rsync-deployments@4.1
+        with:
+          switches: -avzr
+          path: wordpress/
+          remote_path: /var/www/html/
+          remote_host: ${{ secrets.DEV_WORDPRESS_LAMP_SSH_HOST }}
+          remote_port: ${{ secrets.DEV_WORDPRESS_LAMP_SSH_PORT }}
+          remote_user: ${{ secrets.DEV_WORDPRESS_LAMP_SSH_USER }}
+          remote_key: ${{ secrets.DEV_WORDPRESS_LAMP_SSH_PRIVATE_KEY }}
+      # - name: Set Release Version from Tag
+      #   run: echo ::set-env name=RELEASE_VERSION::${GITHUB_REF:10}
+      # - name: Create New Relic deployment marker
+      #   uses: newrelic/deployment-marker-action@v1
+      #   with:
+      #     apiKey: ${{ secrets.PRODUCTION_NEW_RELIC_API_KEY }}
+      #     accountId: ${{ secrets.PRODUCTION_NEW_RELIC_ACCOUNT_ID }}
+      #     applicationId: ${{ secrets.PRODUCTION_NEW_RELIC_APPLICATION_ID }}
+      #     revision: "${{ env.RELEASE_VERSION }}"
+      - name: Notify Slack
+        uses: pullreminders/slack-action@master
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        with:
+          args: '{\"channel\":\"C013PDKSPSQ\",\"text\":\"Production environment deployed\", \"attachments\": [{\"text\": \"Admin Panel - https://wordpress.standoutspecialties.com\"},{\"text\": \"UI - https://standoutspecialties.com\"}]}'

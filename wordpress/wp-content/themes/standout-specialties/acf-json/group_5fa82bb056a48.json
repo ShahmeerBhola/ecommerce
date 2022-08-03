@@ -1,0 +1,46 @@
+{
+    "key": "group_5fa82bb056a48",
+    "title": "Checkout Brand Ambassador",
+    "fields": [
+        {
+            "key": "field_5fa82bcc42751",
+            "label": "Brand Ambassador Referral",
+            "name": "brand_ambassador_referral",
+            "type": "post_object",
+            "instructions": "If this order was referred by a brand ambassador, select them here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "brand-ambassador"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "shop_order"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1604857243
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessage component it renders message if error is non-null and touched is true 1`] = `
+<p
+  className="text-red-100 text-xs pt-1"
+>
+  This is not valid!
+</p>
+`;
+
+exports[`ErrorMessage component it renders nothing if error is non-null and touched is false 1`] = `null`;
+
+exports[`ErrorMessage component it renders nothing if error is null and touched is false 1`] = `null`;
+
+exports[`ErrorMessage component it renders nothing if error is null and touched is true 1`] = `null`;

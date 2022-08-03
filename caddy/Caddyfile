@@ -1,0 +1,21 @@
+standoutspecialties.local {
+    tls /root/certs/standoutspecialties.local.pem /root/certs/standoutspecialties.local-key.pem
+    reverse_proxy sos-web-app:3000 {
+        header_up Host {host}
+        header_up X-Real-IP {remote}
+        header_up X-Forwarded-For {remote}
+        header_up X-Forwarded-Port {server_port}
+        header_up X-Forwarded-Proto {scheme}
+    }
+}
+
+wordpress.standoutspecialties.local {
+    tls /root/certs/_wildcard.standoutspecialties.local.pem /root/certs/_wildcard.standoutspecialties.local-key.pem
+    reverse_proxy sos-wordpress:8000 {
+        header_up Host {host}
+        header_up X-Real-IP {remote}
+        header_up X-Forwarded-For {remote}
+        header_up X-Forwarded-Port {server_port}
+        header_up X-Forwarded-Proto {scheme}
+    }
+}

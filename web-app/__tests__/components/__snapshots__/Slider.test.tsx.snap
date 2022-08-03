@@ -1,0 +1,806 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider component it renders properly 1`] = `
+<div
+  className="slick-slider my-20 slick-initialized"
+>
+  
+  <div
+    className="slick-list"
+  >
+    <div
+      className="slick-track"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "WebkitTransform": "translate3d(0px, 0px, 0px)",
+          "WebkitTransition": "",
+          "msTransform": "translateX(0px)",
+          "opacity": 1,
+          "transform": "translate3d(0px, 0px, 0px)",
+          "transition": "",
+        }
+      }
+    >
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-current"
+        data-index={0}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active"
+        data-index={1}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 2
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active"
+        data-index={2}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 3
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-cloned"
+        data-index={3}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-cloned"
+        data-index={4}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 2
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={5}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 3
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+`;
+
+exports[`Slider component it renders properly when infinite is false 1`] = `
+<div
+  className="slick-slider my-20 slick-initialized"
+>
+  
+  <div
+    className="slick-list"
+  >
+    <div
+      className="slick-track"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "WebkitTransform": "translate3d(0px, 0px, 0px)",
+          "WebkitTransition": "",
+          "msTransform": "translateX(0px)",
+          "opacity": 1,
+          "transform": "translate3d(0px, 0px, 0px)",
+          "transition": "",
+        }
+      }
+    >
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-current"
+        data-index={0}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active"
+        data-index={1}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 2
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active"
+        data-index={2}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 3
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+`;
+
+exports[`Slider component it renders properly when infinite is true 1`] = `
+<div
+  className="slick-slider my-20 slick-initialized"
+>
+  
+  <div
+    className="slick-list"
+  >
+    <div
+      className="slick-track"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "WebkitTransform": "translate3d(0px, 0px, 0px)",
+          "WebkitTransition": "",
+          "msTransform": "translateX(0px)",
+          "opacity": 1,
+          "transform": "translate3d(0px, 0px, 0px)",
+          "transition": "",
+        }
+      }
+    >
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-current"
+        data-index={0}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active"
+        data-index={1}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 2
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active"
+        data-index={2}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 3
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-cloned"
+        data-index={3}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-cloned"
+        data-index={4}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 2
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={5}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 3
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+`;
+
+exports[`Slider component it renders properly when slidesToShow is non-default 1`] = `
+<div
+  className="slick-slider my-20 slick-initialized"
+  dir="ltr"
+>
+  <div
+    className="slick-arrow slick-prev"
+    onClick={[Function]}
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <svg
+      fill="none"
+      height="72"
+      viewBox="0 0 38 72"
+      width="38"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M38 2L4 36L38 70L36 72L0 36L36 0L38 2Z"
+        fill="#C5C5C5"
+      />
+    </svg>
+  </div>
+  <div
+    className="slick-list"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={null}
+    onMouseMove={null}
+    onMouseUp={[Function]}
+    onTouchCancel={null}
+    onTouchEnd={[Function]}
+    onTouchMove={null}
+    onTouchStart={[Function]}
+    style={Object {}}
+  >
+    <div
+      className="slick-track"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "WebkitTransform": "translate3d(0px, 0px, 0px)",
+          "WebkitTransition": "",
+          "msTransform": "translateX(0px)",
+          "opacity": 1,
+          "transform": "translate3d(0px, 0px, 0px)",
+          "transition": "",
+        }
+      }
+    >
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={-1}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 3
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-current"
+        data-index={0}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide"
+        data-index={1}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 2
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide"
+        data-index={2}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 3
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={3}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={4}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 2
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={5}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <p>
+              Slide 3
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="slick-arrow slick-next"
+    onClick={[Function]}
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <svg
+      fill="none"
+      height="72"
+      viewBox="0 0 38 72"
+      width="38"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 2L34 36L0 70L2 72L38 36L2 0L0 2Z"
+        fill="#C5C5C5"
+      />
+    </svg>
+  </div>
+</div>
+`;

@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component it renders properly the placeholder 1`] = `
+<select
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+  name="my-select"
+  value="My Placeholder"
+>
+  <option
+    disabled={true}
+    value="My Placeholder"
+  >
+    My Placeholder
+  </option>
+  <option
+    value="foo"
+  >
+    Foo
+  </option>
+  <option
+    value="bar"
+  >
+    Bar
+  </option>
+</select>
+`;
+
+exports[`Select component it renders properly when borderColor is non-default value 1`] = `
+<select
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-red-200"
+  name="my-select"
+>
+  <option
+    disabled={true}
+  />
+  <option
+    value="foo"
+  >
+    Foo
+  </option>
+  <option
+    value="bar"
+  >
+    Bar
+  </option>
+</select>
+`;
+
+exports[`Select component it renders properly when disabled is true 1`] = `
+<select
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+  disabled={true}
+  name="my-select"
+>
+  <option
+    disabled={true}
+  />
+  <option
+    value="foo"
+  >
+    Foo
+  </option>
+  <option
+    value="bar"
+  >
+    Bar
+  </option>
+</select>
+`;
+
+exports[`Select component it renders properly when onChange and onBlur props provided 1`] = `
+<select
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+  name="my-select"
+  onBlur={[Function]}
+  onChange={[Function]}
+>
+  <option
+    disabled={true}
+  />
+  <option
+    value="foo"
+  >
+    Foo
+  </option>
+  <option
+    value="bar"
+  >
+    Bar
+  </option>
+</select>
+`;
+
+exports[`Select component it renders properly when value is empty string 1`] = `
+<select
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+  name="my-select"
+>
+  <option
+    disabled={true}
+  />
+  <option
+    value="foo"
+  >
+    Foo
+  </option>
+  <option
+    value="bar"
+  >
+    Bar
+  </option>
+</select>
+`;
+
+exports[`Select component it renders properly when value is non-empty string 1`] = `
+<select
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+  name="my-select"
+  value="foo"
+>
+  <option
+    disabled={true}
+  />
+  <option
+    value="foo"
+  >
+    Foo
+  </option>
+  <option
+    value="bar"
+  >
+    Bar
+  </option>
+</select>
+`;

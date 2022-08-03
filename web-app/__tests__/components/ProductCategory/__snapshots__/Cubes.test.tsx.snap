@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCategory Cubes component it renders properly 1`] = `
+<div
+  className="flex flex-wrap"
+>
+  <div
+    className="h-cube p-2 box-border w-full md:w-1/2"
+  >
+    <a
+      href="/category/test-category-1"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        className="bg-no-repeat h-full relative bg-cover"
+        style={
+          Object {
+            "backgroundImage": "url(https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg)",
+          }
+        }
+      >
+        <h3
+          className="font-primary font-bold text-xl absolute bottom-5 left-5 uppercase text-white"
+        >
+          Test Category
+        </h3>
+      </div>
+    </a>
+  </div>
+  <div
+    className="h-cube p-2 box-border w-full md:w-1/2"
+  >
+    <a
+      href="/category/test-category-2"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        className="bg-no-repeat h-full relative bg-cover"
+        style={
+          Object {
+            "backgroundImage": "url(https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg)",
+          }
+        }
+      >
+        <h3
+          className="font-primary font-bold text-xl absolute bottom-5 left-5 uppercase text-white"
+        >
+          Test Category
+        </h3>
+      </div>
+    </a>
+  </div>
+</div>
+`;

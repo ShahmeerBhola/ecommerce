@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Submit component it renders properly default loadingMessage when isSubmitting is true 1`] = `
+<button
+  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none h-full w-full text-sm text-white bg-red-100 hover:bg-red-200"
+  type="submit"
+>
+  Loading
+</button>
+`;
+
+exports[`Submit component it renders properly when classNameProp is provided 1`] = `
+<button
+  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none my-custom-class text-white bg-red-100 hover:bg-red-200"
+  type="submit"
+>
+  Loading
+</button>
+`;
+
+exports[`Submit component it renders properly when disabled is false 1`] = `
+<button
+  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none h-full w-full text-sm text-white bg-red-100 hover:bg-red-200"
+  disabled={false}
+  type="submit"
+>
+  Loading
+</button>
+`;
+
+exports[`Submit component it renders properly when disabled is true 1`] = `
+<button
+  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none h-full w-full text-sm text-white bg-red-100 hover:bg-red-200"
+  disabled={true}
+  type="submit"
+>
+  Loading
+</button>
+`;
+
+exports[`Submit component it renders properly when isSubmitting is false 1`] = `
+<button
+  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none h-full w-full text-sm text-white bg-red-100 hover:bg-red-200"
+  type="submit"
+>
+  <p>
+    Hello
+  </p>
+</button>
+`;
+
+exports[`Submit component it renders properly when isSubmitting is true and loadingMessage is provided 1`] = `
+<button
+  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none h-full w-full text-sm text-white bg-red-100 hover:bg-red-200"
+  type="submit"
+>
+  Yoooo loading!
+</button>
+`;

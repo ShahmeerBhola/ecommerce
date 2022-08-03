@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component it renders properly 1`] = `
+Array [
+  <form
+    className="font-secondary"
+    onSubmit={[Function]}
+  >
+    <div
+      className="flex flex-wrap my-3"
+    >
+      <p
+        className="font-secondary font-normal text-gray-700 text-lg w-full mb-3 font-medium"
+      >
+        Yoooo dog
+      </p>
+      <div
+        className="pt-2 px-2 box-border pb-5 submit-field-class-name"
+      >
+        <button
+          className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none h-full w-full text-sm text-white bg-red-100 hover:bg-red-200"
+          disabled={false}
+          type="submit"
+        >
+          Submit that Form
+        </button>
+      </div>
+    </div>
+  </form>,
+  <div
+    className="react-toast-notifications__container css-mrh2d-ToastContainer"
+  />,
+]
+`;

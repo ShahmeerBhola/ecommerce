@@ -1,0 +1,8 @@
+root = true
+
+[Makefile]
+indent_style = tab
+
+[*.{js,jsx,ts,tsx,yaml,yml,sh,scss}]
+indent_style = space
+indent_size = 4

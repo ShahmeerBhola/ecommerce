@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component it renders properly when transparentNavOnTopOfPage is false 1`] = `
+<header
+  className="fixed z-10 w-full py-5 text-white bg-black"
+>
+  <div
+    className="container mx-auto px-5   flex items-center justify-between"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <img
+        alt="Standout Specialties"
+        className="mx-auto"
+        height={79}
+        src="https://storage.googleapis.com/standout-specialties-public-assets/logo.png"
+        width={161}
+      />
+    </a>
+    <nav
+      className="hidden sm:flex items-center"
+    >
+      <a
+        className="mr-10"
+        href="/store"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Store
+      </a>
+      <a
+        className="mr-10"
+        href="/brands"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Brands
+      </a>
+      <a
+        className="mr-10"
+        href="/contact"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Contact
+      </a>
+      <a
+        className="mr-10"
+        href="/cart"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <div
+          className="relative"
+        >
+          <svg
+            fill="none"
+            height="34"
+            viewBox="0 0 38 34"
+            width="34"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.01167 26.2134H23.2637L24.2063 22.5357H4.2741L0 5.86091H28.4804L29.9827 0H38V2.18315H31.7304L25.5486 26.3006C27.3481 26.6775 28.7015 28.2406 28.7015 30.1067C28.7015 32.2535 26.9108 34 24.7097 34C22.5086 34 20.718 32.2534 20.718 30.1067C20.718 29.4935 20.8646 28.9131 21.1247 28.3966H11.5967C11.8569 28.9131 12.0034 29.4935 12.0034 30.1067C12.0034 32.2535 10.2127 34 8.01167 34C5.81065 34 4.0199 32.2534 4.0199 30.1067C4.01997 27.96 5.81072 26.2134 8.01167 26.2134Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </a>
+    </nav>
+    <button
+      className="block sm:hidden flex items-center px-3 py-2 border rounded text-red-100 border-red-100 hover:text-red-200 hover:border-red-200 focus:outline-none"
+      onClick={[Function]}
+    >
+      <svg
+        className="fill-current h-3 w-3"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>
+          Menu
+        </title>
+        <path
+          d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+        />
+      </svg>
+    </button>
+  </div>
+  <nav
+    className="hidden sm:hidden mt-2 py-2 text-center bg-gray-600"
+  >
+    <a
+      className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+      href="/store"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Store
+    </a>
+    <a
+      className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+      href="/brands"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Brands
+    </a>
+    <a
+      className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+      href="/contact"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Contact
+    </a>
+    <a
+      className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+      href="/cart"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Cart
+    </a>
+  </nav>
+</header>
+`;
+
+exports[`Header component it renders properly when transparentNavOnTopOfPage is true 1`] = `
+<header
+  className="fixed z-10 w-full py-5 text-white "
+>
+  <div
+    className="container mx-auto px-5   flex items-center justify-between"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <img
+        alt="Standout Specialties"
+        className="mx-auto"
+        height={79}
+        src="https://storage.googleapis.com/standout-specialties-public-assets/logo.png"
+        width={161}
+      />
+    </a>
+    <nav
+      className="hidden sm:flex items-center"
+    >
+      <a
+        className="mr-10"
+        href="/store"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Store
+      </a>
+      <a
+        className="mr-10"
+        href="/brands"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Brands
+      </a>
+      <a
+        className="mr-10"
+        href="/contact"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Contact
+      </a>
+      <a
+        className="mr-10"
+        href="/cart"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <div
+          className="relative"
+        >
+          <svg
+            fill="none"
+            height="34"
+            viewBox="0 0 38 34"
+            width="34"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.01167 26.2134H23.2637L24.2063 22.5357H4.2741L0 5.86091H28.4804L29.9827 0H38V2.18315H31.7304L25.5486 26.3006C27.3481 26.6775 28.7015 28.2406 28.7015 30.1067C28.7015 32.2535 26.9108 34 24.7097 34C22.5086 34 20.718 32.2534 20.718 30.1067C20.718 29.4935 20.8646 28.9131 21.1247 28.3966H11.5967C11.8569 28.9131 12.0034 29.4935 12.0034 30.1067C12.0034 32.2535 10.2127 34 8.01167 34C5.81065 34 4.0199 32.2534 4.0199 30.1067C4.01997 27.96 5.81072 26.2134 8.01167 26.2134Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </a>
+    </nav>
+    <button
+      className="block sm:hidden flex items-center px-3 py-2 border rounded text-red-100 border-red-100 hover:text-red-200 hover:border-red-200 focus:outline-none"
+      onClick={[Function]}
+    >
+      <svg
+        className="fill-current h-3 w-3"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>
+          Menu
+        </title>
+        <path
+          d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+        />
+      </svg>
+    </button>
+  </div>
+  <nav
+    className="hidden sm:hidden mt-2 py-2 text-center bg-gray-600"
+  >
+    <a
+      className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+      href="/store"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Store
+    </a>
+    <a
+      className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+      href="/brands"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Brands
+    </a>
+    <a
+      className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+      href="/contact"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Contact
+    </a>
+    <a
+      className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+      href="/cart"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Cart
+    </a>
+  </nav>
+</header>
+`;

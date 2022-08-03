@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`H2 component it renders properly with className prop 1`] = `
+<h2
+  className="font-primary font-bold text-xl uppercase text-gray-400 my-custom-class"
+>
+  Header
+</h2>
+`;
+
+exports[`H2 component it renders properly with default color 1`] = `
+<h2
+  className="font-primary font-bold text-xl uppercase text-gray-400"
+>
+  Header
+</h2>
+`;
+
+exports[`H2 component it renders properly with non-default color 1`] = `
+<h2
+  className="font-primary font-bold text-xl uppercase text-red-200"
+>
+  Header
+</h2>
+`;

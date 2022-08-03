@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`H1 component it renders properly with default color 1`] = `
+<h1
+  className="font-primary font-bold text-black text-3xl uppercase"
+>
+  Header
+</h1>
+`;
+
+exports[`H1 component it renders properly with non-default color 1`] = `
+<h1
+  className="font-primary font-bold text-red-200 text-3xl uppercase"
+>
+  Header
+</h1>
+`;

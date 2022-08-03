@@ -1,0 +1,43 @@
+{
+    "key": "group_5f873fa8bec82",
+    "title": "Sold as Truck Set",
+    "fields": [
+        {
+            "key": "field_5f873fb676100",
+            "label": "Sold as Truck Set?",
+            "name": "sold_as_truck_set",
+            "type": "true_false",
+            "instructions": "If this box is checked it will display to the user that this product is sold as \"Set for Four Wheels\".",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1602699263
+}

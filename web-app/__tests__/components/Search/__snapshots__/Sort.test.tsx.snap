@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sort component it renders properly when value is blank string 1`] = `
+<select
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+  name="sort"
+  onChange={[Function]}
+  value="Sort"
+>
+  <option
+    disabled={true}
+    value="Sort"
+  >
+    Sort
+  </option>
+  <option
+    value="price-lth"
+  >
+    Price (Low to High)
+  </option>
+  <option
+    value="price-htl"
+  >
+    Price (High to Low)
+  </option>
+  <option
+    value="popular"
+  >
+    Popular
+  </option>
+  <option
+    value="newest"
+  >
+    Newest
+  </option>
+</select>
+`;
+
+exports[`Sort component it renders properly when value is price-lth 1`] = `
+<select
+  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+  name="sort"
+  onChange={[Function]}
+  value="price-lth"
+>
+  <option
+    disabled={true}
+    value="Sort"
+  >
+    Sort
+  </option>
+  <option
+    value="price-lth"
+  >
+    Price (Low to High)
+  </option>
+  <option
+    value="price-htl"
+  >
+    Price (High to Low)
+  </option>
+  <option
+    value="popular"
+  >
+    Popular
+  </option>
+  <option
+    value="newest"
+  >
+    Newest
+  </option>
+</select>
+`;

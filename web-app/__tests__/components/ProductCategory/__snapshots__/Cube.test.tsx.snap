@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCategory Cube component it renders properly 1`] = `
+<div
+  className="h-cube p-2 box-border 250"
+>
+  <a
+    href="/category/test-category"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <div
+      className="bg-no-repeat h-full relative bg-cover"
+      style={
+        Object {
+          "backgroundImage": "url(my-image.png)",
+        }
+      }
+    >
+      <h3
+        className="font-primary font-bold text-xl absolute bottom-5 left-5 uppercase text-white"
+      >
+        Test Category
+      </h3>
+    </div>
+  </a>
+</div>
+`;

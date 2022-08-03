@@ -1,0 +1,62 @@
+version: "3.8"
+
+services:
+    sos-caddy:
+        depends_on:
+            # - sos-web-app
+            - sos-wordpress
+        image: "caddy:2.0.0"
+        container_name: sos-caddy
+        volumes:
+            - ./caddy/certs:/root/certs:delegated
+            - ./caddy/Caddyfile:/etc/caddy/Caddyfile:delegated
+        ports:
+            - "443:443"
+            - "80:80"
+
+    sos-db:
+        image: mariadb:10.4.15
+        container_name: sos-db
+        environment:
+            MYSQL_ROOT_PASSWORD: so_spec
+            MYSQL_DATABASE: so_spec
+            MYSQL_USER: so_spec
+            MYSQL_PASSWORD: so_spec
+        volumes:
+            - sos_db_data:/var/lib/mysql:delegated
+            - ./docker/seed_database.sql:/docker-entrypoint-initdb.d/seed_database.sql
+        ports:
+            - "3306:3306"
+
+    sos-wordpress:
+        depends_on:
+            - sos-db
+        image: sos-wordpress:latest
+        user: www-data
+        container_name: sos-wordpress
+        command: bash -c 'install_wordpress && apache2-foreground'
+        environment:
+            WORDPRESS_VERSION: 5.5.1
+            WORDPRESS_LOCALE: en_US
+            WORDPRESS_DB_HOST: sos-db:3306
+            WORDPRESS_DB_USER: so_spec
+            WORDPRESS_DB_PASSWORD: so_spec
+            WORDPRESS_DB_NAME: so_spec
+            WORDPRESS_DB_PREFIX: wp_Lkxmq2CP_
+            WORDPRESS_DB_CHARSET: utf8
+            WORDPRESS_DB_COLLATION: utf8_general_ci
+            WORDPRESS_SENDGRID_API_KEY: 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
+            WORDPRESS_SENDGRID_SEND_METHOD: api
+            WORDPRESS_SENDGRID_FROM_NAME: Standout Specialties
+            WORDPRESS_SENDGRID_FROM_EMAIL: info@standoutspecialties.com
+            WORDPRESS_SENDGRID_CONTENT_TYPE: html
+            WORDPRESS_FORM_SUBMISSION_TO_EMAIL: joseph.t.orlando@gmail.com
+            WORDPRESS_STRIPE_API_SECRET_KEY: sk_test_4QXwtW5FSTXzkhv86tWuGd4W00kuBuWyoZ
+            WORDPRESS_HEADLESS_FRONTEND_ORIGIN: https://standoutspecialties.local
+        volumes:
+            - ./wordpress:/var/www/html:delegated
+        ports:
+            - "8000:8000"
+
+volumes:
+    sos_db_data: {}

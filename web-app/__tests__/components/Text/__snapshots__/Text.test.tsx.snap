@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text component it renders properly with className prop 1`] = `
+<p
+  className="font-secondary font-normal text-gray-100 text-base my-custom-class"
+>
+  Text
+</p>
+`;
+
+exports[`Text component it renders properly with default props 1`] = `
+<p
+  className="font-secondary font-normal text-gray-100 text-base"
+>
+  Text
+</p>
+`;
+
+exports[`Text component it renders properly with non-default color 1`] = `
+<p
+  className="font-secondary font-normal text-red-200 text-base"
+>
+  Text
+</p>
+`;
+
+exports[`Text component it renders properly with size prop 1`] = `
+<p
+  className="font-secondary font-normal text-gray-100 text-3xl"
+>
+  Text
+</p>
+`;
+
+exports[`Text component it renders properly with weight prop 1`] = `
+<p
+  className="font-secondary font-extrabold text-gray-100 text-base"
+>
+  Text
+</p>
+`;

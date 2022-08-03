@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RightCarrot component it renders properly 1`] = `
+<svg
+  className="cursor-pointer"
+  fill="none"
+  height="31"
+  onClick={[Function]}
+  viewBox="0 0 19 31"
+  width="19"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M18 15.5L2.84783 30L1 28.2317L14.3043 15.5L1 2.76829L2.84783 1L18 15.5Z"
+    fill="#F23939"
+    stroke="#F23939"
+  />
+</svg>
+`;

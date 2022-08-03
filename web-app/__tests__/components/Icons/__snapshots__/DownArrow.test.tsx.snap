@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DownArrow component it renders properly 1`] = `
+<svg
+  fill="none"
+  height="12"
+  viewBox="0 0 21 12"
+  width="21"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M10.5 12L0 1.30435L1.28049 0L10.5 9.3913L19.7195 0L21 1.30435L10.5 12Z"
+    fill="#F23939"
+  />
+</svg>
+`;

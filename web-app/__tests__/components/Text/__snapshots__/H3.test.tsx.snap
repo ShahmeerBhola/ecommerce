@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`H3 component it renders properly with className prop 1`] = `
+<h3
+  className="font-primary font-bold text-xl my-custom-class uppercase text-gray-100"
+>
+  Header
+</h3>
+`;
+
+exports[`H3 component it renders properly with default color 1`] = `
+<h3
+  className="font-primary font-bold text-xl uppercase text-gray-100"
+>
+  Header
+</h3>
+`;
+
+exports[`H3 component it renders properly with non-default color 1`] = `
+<h3
+  className="font-primary font-bold text-xl uppercase text-red-200"
+>
+  Header
+</h3>
+`;
+
+exports[`H3 component it renders properly with uppercase prop = false 1`] = `
+<h3
+  className="font-primary font-bold text-xl text-gray-100"
+>
+  Header
+</h3>
+`;
+
+exports[`H3 component it renders properly with uppercase prop = true 1`] = `
+<h3
+  className="font-primary font-bold text-xl uppercase text-gray-100"
+>
+  Header
+</h3>
+`;

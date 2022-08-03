@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circle component it renders properly 1`] = `
+<div
+  className="rounded-full h-4 w-4 bg-red-200 text-white flex items-center justify-center"
+>
+  <p
+    className="font-secondary font-normal text-white text-xs"
+  >
+    <div>
+      children
+    </div>
+  </p>
+</div>
+`;
+
+exports[`Circle component it renders properly with non-default props 1`] = `
+<div
+  className="rounded-full h-60 w-60 bg-red-200 text-white flex items-center justify-center hello-there"
+>
+  <p
+    className="font-secondary font-normal text-white text-3xl"
+  >
+    <p>
+      Hello
+    </p>
+  </p>
+</div>
+`;

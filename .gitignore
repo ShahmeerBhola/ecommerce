@@ -1,0 +1,5 @@
+.DS_Store
+caddy/certs/*.pem
+
+wordpress/wp-content/plugins/wp-api-swaggerui
+wordpress/wp-content/plugins/query-monitor

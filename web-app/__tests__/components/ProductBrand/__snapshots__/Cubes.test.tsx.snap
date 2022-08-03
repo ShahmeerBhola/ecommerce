@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductBrand Cubes component it renders properly 1`] = `
+<div
+  className="flex flex-wrap"
+>
+  <div
+    className="h-cube p-2 box-border w-full md:w-1/2 lg:w-1/3"
+  >
+    <a
+      href="/brand/test-brand-1"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <img
+        alt="Test Brand"
+        src="https://images.customwheeloffset.com/brand-logos/Fuel.png"
+      />
+    </a>
+  </div>
+  <div
+    className="h-cube p-2 box-border w-full md:w-1/2 lg:w-1/3"
+  >
+    <a
+      href="/brand/test-brand-2"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <img
+        alt="Test Brand"
+        src="https://images.customwheeloffset.com/brand-logos/Fuel.png"
+      />
+    </a>
+  </div>
+</div>
+`;

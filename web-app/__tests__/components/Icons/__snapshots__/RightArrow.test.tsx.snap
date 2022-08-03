@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RightArrow component it renders properly 1`] = `
+<svg
+  fill="none"
+  height="50"
+  viewBox="0 0 50 50"
+  width="50"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect
+    height="48"
+    stroke="#F23939"
+    strokeWidth="2"
+    width="48"
+    x="1"
+    y="1"
+  />
+  <path
+    d="M30.0168 31L28.2218 29.2L31.201 26.2125L14 26.2125L14 23.6669L31.0807 23.6669L28.2218 20.8L30.0168 19L36 25L30.0168 31Z"
+    fill="#F23939"
+  />
+</svg>
+`;

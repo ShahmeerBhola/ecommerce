@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section component it renders properly when hidden is false 1`] = `
+<div
+  className="flex flex-wrap my-3"
+>
+  <div>
+    <p>
+      Mocked field
+    </p>
+    <input
+      type="text"
+    />
+  </div>
+  <div>
+    <p>
+      Yooo
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Section component it renders properly when hidden is true 1`] = `null`;
+
+exports[`Section component it renders properly when label prop is provided 1`] = `
+<div
+  className="flex flex-wrap my-3"
+>
+  <p
+    className="font-secondary font-normal text-gray-700 text-lg w-full mb-3 font-medium"
+  >
+    My Section Label
+  </p>
+  <div>
+    <p>
+      Mocked field
+    </p>
+    <input
+      type="text"
+    />
+  </div>
+  <div>
+    <p>
+      Yooo
+    </p>
+  </div>
+</div>
+`;

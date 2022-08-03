@@ -1,0 +1,17 @@
+.sos-prod__active {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: 9;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: #f3f3f3;
+        transform: translateY(70%) rotate(45deg);
+    }
+}

@@ -1,0 +1,2288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage component it renders properly 1`] = `
+Array [
+  <header
+    className="fixed z-10 w-full py-5 text-white "
+  >
+    <div
+      className="container mx-auto px-5   flex items-center justify-between"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <img
+          alt="Standout Specialties"
+          className="mx-auto"
+          height={79}
+          src="https://storage.googleapis.com/standout-specialties-public-assets/logo.png"
+          width={161}
+        />
+      </a>
+      <nav
+        className="hidden sm:flex items-center"
+      >
+        <a
+          className="mr-10"
+          href="/store"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Store
+        </a>
+        <a
+          className="mr-10"
+          href="/brands"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Brands
+        </a>
+        <a
+          className="mr-10"
+          href="/contact"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Contact
+        </a>
+        <a
+          className="mr-10"
+          href="/cart"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <div
+            className="relative"
+          >
+            <svg
+              fill="none"
+              height="34"
+              viewBox="0 0 38 34"
+              width="34"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.01167 26.2134H23.2637L24.2063 22.5357H4.2741L0 5.86091H28.4804L29.9827 0H38V2.18315H31.7304L25.5486 26.3006C27.3481 26.6775 28.7015 28.2406 28.7015 30.1067C28.7015 32.2535 26.9108 34 24.7097 34C22.5086 34 20.718 32.2534 20.718 30.1067C20.718 29.4935 20.8646 28.9131 21.1247 28.3966H11.5967C11.8569 28.9131 12.0034 29.4935 12.0034 30.1067C12.0034 32.2535 10.2127 34 8.01167 34C5.81065 34 4.0199 32.2534 4.0199 30.1067C4.01997 27.96 5.81072 26.2134 8.01167 26.2134Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </a>
+      </nav>
+      <button
+        className="block sm:hidden flex items-center px-3 py-2 border rounded text-red-100 border-red-100 hover:text-red-200 hover:border-red-200 focus:outline-none"
+        onClick={[Function]}
+      >
+        <svg
+          className="fill-current h-3 w-3"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            Menu
+          </title>
+          <path
+            d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+          />
+        </svg>
+      </button>
+    </div>
+    <nav
+      className="hidden sm:hidden mt-2 py-2 text-center bg-gray-600"
+    >
+      <a
+        className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+        href="/store"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Store
+      </a>
+      <a
+        className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+        href="/brands"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Brands
+      </a>
+      <a
+        className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+        href="/contact"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Contact
+      </a>
+      <a
+        className="block py-2 hover:bg-red-100 hover:bg-opacity-25"
+        href="/cart"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Cart
+      </a>
+    </nav>
+  </header>,
+  <div
+    className="bg-no-repeat bg-cover"
+    style={
+      Object {
+        "backgroundImage": "url(/images/home_truck-hero.png)",
+      }
+    }
+  >
+    <div
+      className="container mx-auto px-5 md:py-20 py-5 min-h-80 relative flex items-center"
+    >
+      <div
+        className="w-full lg:w-1/2"
+      >
+        <h1
+          className="font-primary font-bold text-white text-3xl uppercase"
+        >
+          Wheel and Tire Packages
+        </h1>
+        <p
+          className="font-secondary font-normal text-gray-100 text-lg pt-5 pb-1"
+        >
+          Search for Your Favorite Wheel & Tire Brands
+        </p>
+        <p
+          className="font-secondary font-normal text-gray-100 text-base"
+        >
+          Free Mounting and Balancing
+        </p>
+      </div>
+      <div
+        className="absolute my-20 left-0 right-0 bottom-neg-33 sm:bottom-neg-13 md:bottom-neg-11 react-tabs px-5 sm:px-0"
+      >
+        <div
+          className="flex"
+        >
+          <div
+            className="text-white font-bold py-2 px-4 uppercase cursor-pointer bg-red-100"
+            onClick={[Function]}
+          >
+            Search Wheels By Vehicle
+          </div>
+          <div
+            className="text-white font-bold py-2 px-4 uppercase cursor-pointer "
+            onClick={[Function]}
+          >
+            Search Wheels By Size & Brand
+          </div>
+        </div>
+        <div
+          className="bg-gray-600 p-5 shadow-2xl block"
+        >
+          <form
+            className="font-secondary"
+            onSubmit={[Function]}
+          >
+            <div
+              className="flex flex-wrap my-3"
+            >
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/3 md:w-1/4"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  disabled={false}
+                  name="year"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Year"
+                >
+                  <option
+                    disabled={true}
+                    value="Year"
+                  >
+                    Year
+                  </option>
+                  <option
+                    value="2018"
+                  >
+                    2018
+                  </option>
+                  <option
+                    value="2019"
+                  >
+                    2019
+                  </option>
+                  <option
+                    value="2020"
+                  >
+                    2020
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/3 md:w-1/4"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  disabled={true}
+                  name="make"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Make"
+                >
+                  <option
+                    disabled={true}
+                    value="Make"
+                  >
+                    Make
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/3 md:w-1/4"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  disabled={true}
+                  name="model"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Model"
+                >
+                  <option
+                    disabled={true}
+                    value="Model"
+                  >
+                    Model
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/3 md:w-1/4"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  disabled={true}
+                  name="drive_trim"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Drive/Trim"
+                >
+                  <option
+                    disabled={true}
+                    value="Drive/Trim"
+                  >
+                    Drive/Trim
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/3 md:w-5/12"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  disabled={true}
+                  name="suspension"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Suspension"
+                >
+                  <option
+                    disabled={true}
+                    value="Suspension"
+                  >
+                    Suspension
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/3 md:w-5/12"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  disabled={true}
+                  name="trimming"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Trimming"
+                >
+                  <option
+                    disabled={true}
+                    value="Trimming"
+                  >
+                    Trimming
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/6"
+              >
+                <button
+                  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none h-full w-full text-sm text-white bg-red-100 hover:bg-red-200"
+                  disabled={false}
+                  type="submit"
+                >
+                  Shop Wheels
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          className="bg-gray-600 p-5 shadow-2xl hidden"
+        >
+          <form
+            className="font-secondary"
+            onSubmit={[Function]}
+          >
+            <div
+              className="flex flex-wrap my-3"
+            >
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/2"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  name="diameter"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Wheel Diameter"
+                >
+                  <option
+                    disabled={true}
+                    value="Wheel Diameter"
+                  >
+                    Wheel Diameter
+                  </option>
+                  <option
+                    value="diameter-foo"
+                  >
+                    diameter-foo
+                  </option>
+                  <option
+                    value="diameter-bar"
+                  >
+                    diameter-bar
+                  </option>
+                  <option
+                    value="diameter-baz"
+                  >
+                    diameter-baz
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/2"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  name="width"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Wheel Width"
+                >
+                  <option
+                    disabled={true}
+                    value="Wheel Width"
+                  >
+                    Wheel Width
+                  </option>
+                  <option
+                    value="width1"
+                  >
+                    width1
+                  </option>
+                  <option
+                    value="width2"
+                  >
+                    width2
+                  </option>
+                  <option
+                    value="width3"
+                  >
+                    width3
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-5/12"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  name="bolt_pattern"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Bolt Pattern"
+                >
+                  <option
+                    disabled={true}
+                    value="Bolt Pattern"
+                  >
+                    Bolt Pattern
+                  </option>
+                  <option
+                    value="boltPattern1"
+                  >
+                    boltPattern1
+                  </option>
+                  <option
+                    value="boltPattern2"
+                  >
+                    boltPattern2
+                  </option>
+                  <option
+                    value="boltPattern3"
+                  >
+                    boltPattern3
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-5/12"
+              >
+                <select
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  name="brand"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value="Wheel Brand"
+                >
+                  <option
+                    disabled={true}
+                    value="Wheel Brand"
+                  >
+                    Wheel Brand
+                  </option>
+                  <option
+                    value="brand1"
+                  >
+                    brand1
+                  </option>
+                  <option
+                    value="brand2"
+                  >
+                    brand2
+                  </option>
+                  <option
+                    value="brand3"
+                  >
+                    brand3
+                  </option>
+                </select>
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full sm:w-1/6"
+              >
+                <button
+                  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none h-full w-full text-sm text-white bg-red-100 hover:bg-red-200"
+                  disabled={false}
+                  type="submit"
+                >
+                  Shop Wheels
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="container mx-auto px-5 md:py-20 py-5 min-h-80 mt-33 sm:mt-13 md:mt-7"
+  >
+    <h2
+      className="font-primary font-bold text-xl uppercase text-gray-400 text-center"
+    >
+      Lorem Ipsum
+    </h2>
+    <hr
+      className="my-10 w-20 mx-auto border-2 border-solid border-red-100"
+    />
+    <div
+      className="flex flex-wrap"
+    >
+      <div
+        className="h-cube p-2 box-border w-full md:w-1/2"
+      >
+        <a
+          href="/category/test-category-1"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <div
+            className="bg-no-repeat h-full relative bg-cover"
+            style={
+              Object {
+                "backgroundImage": "url(https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg)",
+              }
+            }
+          >
+            <h3
+              className="font-primary font-bold text-xl absolute bottom-5 left-5 uppercase text-white"
+            >
+              Test Category
+            </h3>
+          </div>
+        </a>
+      </div>
+      <div
+        className="h-cube p-2 box-border w-full md:w-1/2"
+      >
+        <a
+          href="/category/test-category-2"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <div
+            className="bg-no-repeat h-full relative bg-cover"
+            style={
+              Object {
+                "backgroundImage": "url(https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg)",
+              }
+            }
+          >
+            <h3
+              className="font-primary font-bold text-xl absolute bottom-5 left-5 uppercase text-white"
+            >
+              Test Category
+            </h3>
+          </div>
+        </a>
+      </div>
+      <div
+        className="h-cube p-2 box-border w-full md:w-1/2 lg:w-1/3"
+      >
+        <a
+          href="/category/test-category-3"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <div
+            className="bg-no-repeat h-full relative bg-cover"
+            style={
+              Object {
+                "backgroundImage": "url(https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg)",
+              }
+            }
+          >
+            <h3
+              className="font-primary font-bold text-xl absolute bottom-5 left-5 uppercase text-white"
+            >
+              Test Category
+            </h3>
+          </div>
+        </a>
+      </div>
+      <div
+        className="h-cube p-2 box-border w-full md:w-1/2 lg:w-1/3"
+      >
+        <a
+          href="/category/test-category-4"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <div
+            className="bg-no-repeat h-full relative bg-cover"
+            style={
+              Object {
+                "backgroundImage": "url(https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg)",
+              }
+            }
+          >
+            <h3
+              className="font-primary font-bold text-xl absolute bottom-5 left-5 uppercase text-white"
+            >
+              Test Category
+            </h3>
+          </div>
+        </a>
+      </div>
+      <div
+        className="h-cube p-2 box-border w-full md:w-1/2 lg:w-1/3"
+      >
+        <a
+          href="/category/test-category-5"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <div
+            className="bg-no-repeat h-full relative bg-cover"
+            style={
+              Object {
+                "backgroundImage": "url(https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg)",
+              }
+            }
+          >
+            <h3
+              className="font-primary font-bold text-xl absolute bottom-5 left-5 uppercase text-white"
+            >
+              Test Category
+            </h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="bg-no-repeat bg-cover"
+    style={
+      Object {
+        "backgroundImage": "url(/images/home_truck-lift-kits.png)",
+      }
+    }
+  >
+    <div
+      className="container mx-auto px-5 md:py-20 py-5 min-h-80 text-center flex flex-col justify-center"
+    >
+      <h2
+        className="font-primary font-bold text-xl uppercase text-white"
+      >
+        Lift Kits/Leveling Kits
+      </h2>
+      <p
+        className="font-secondary font-normal text-gray-100 text-base pt-5 pb-10"
+      >
+        Lorem ipsum dolor sit amet, scelerisque mi tellus neque turpis
+      </p>
+      <a
+        href="/category/suspension"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <button
+          className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none self-center text-white bg-red-100 hover:bg-red-200"
+          type="button"
+        >
+          Shop All Suspension Kits
+        </button>
+      </a>
+    </div>
+  </div>,
+  <div
+    className="bg-black"
+  >
+    <div
+      className="container mx-auto px-5 md:py-20 py-5 min-h-80 text-center"
+    >
+      <h2
+        className="font-primary font-bold text-xl uppercase text-white text-center"
+      >
+        Top 20 Most Popular Wheels
+      </h2>
+      <hr
+        className="my-10 w-20 mx-auto border-2 border-solid border-gray-500"
+      />
+      <div
+        className="slick-slider my-20 slick-initialized"
+        dir="ltr"
+      >
+        <div
+          className="slick-arrow slick-prev"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <svg
+            fill="none"
+            height="72"
+            viewBox="0 0 38 72"
+            width="38"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M38 2L4 36L38 70L36 72L0 36L36 0L38 2Z"
+              fill="#C5C5C5"
+            />
+          </svg>
+        </div>
+        <div
+          className="slick-list"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={null}
+          onMouseMove={null}
+          onMouseUp={[Function]}
+          onTouchCancel={null}
+          onTouchEnd={[Function]}
+          onTouchMove={null}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="slick-track"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                "WebkitTransition": "",
+                "msTransform": "translateX(0px)",
+                "opacity": 1,
+                "transform": "translate3d(0px, 0px, 0px)",
+                "transition": "",
+              }
+            }
+          >
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-5}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-2"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-4}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-3"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-3}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-4"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-2}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-5"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-6"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active slick-current"
+              data-index={0}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-1"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-2"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={2}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-3"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={3}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-4"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={4}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-5"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={5}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-6"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={6}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-1"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={7}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-2"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={8}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-3"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={9}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-4"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={10}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-5"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={11}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="px-2 h-full"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="bg-white p-5 text-center h-full"
+                  >
+                    <p
+                      className="font-secondary font-normal text-black text-base uppercase font-bold"
+                    >
+                      American Force Battery CC
+                      ...
+                    </p>
+                    <div
+                      className="my-10 max-h-150px"
+                    >
+                      <img
+                        alt=""
+                        className="w-full h-full"
+                        src="https://wordpress.standoutspecialties.local/wp-content/uploads/2020/06/CK17-3016-5x500-SF.jpg"
+                      />
+                    </div>
+                    <a
+                      href="/product/ck17-3016-5x500-sf-american-force-battery-cc-ck17-30x16-5x5-6"
+                      onClick={[Function]}
+                      onMouseEnter={[Function]}
+                    >
+                      <button
+                        className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-red-100 hover:text-red-200 bg-transparent border-solid border-2 border-red-100 hover:border-red-200"
+                        type="button"
+                      >
+                        Show More
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="slick-arrow slick-next"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <svg
+            fill="none"
+            height="72"
+            viewBox="0 0 38 72"
+            width="38"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2L34 36L0 70L2 72L38 36L2 0L0 2Z"
+              fill="#C5C5C5"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="bg-no-repeat bg-cover"
+    style={
+      Object {
+        "backgroundImage": "url(/images/home_truck-best-selection.png)",
+      }
+    }
+  >
+    <div
+      className="container mx-auto px-5 md:py-20 py-5 min-h-80 text-center flex flex-col justify-center"
+    >
+      <h2
+        className="font-primary font-bold text-xl uppercase text-white"
+      >
+        Check out All of Our Featured Brands
+      </h2>
+      <p
+        className="font-secondary font-normal text-gray-100 text-base pt-5 pb-10"
+      >
+        Lorem ipsum dolor sit amet, scelerisque mi tellus neque turpis
+      </p>
+      <a
+        href="/brands"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        <button
+          className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none self-center text-white bg-red-100 hover:bg-red-200"
+          type="button"
+        >
+          View Our Brands
+        </button>
+      </a>
+    </div>
+  </div>,
+  <div
+    className="bg-no-repeat flex items-center bg-right bg-0% md:bg-50% min-h-60 my-20"
+    style={
+      Object {
+        "backgroundImage": "url(/images/home_truck-shop-local.png)",
+      }
+    }
+  >
+    <div
+      className="container mx-auto px-5 md:py-20 py-5 min-h-80"
+    >
+      <div
+        className="w-full md:w-1/2"
+      >
+        <h2
+          className="font-primary font-bold text-xl uppercase text-gray-400"
+        >
+          Shop Local And Save
+        </h2>
+        <p
+          className="font-secondary font-normal text-gray-100 text-base py-10"
+        >
+          Here at Standout Specialties, we are driven to find you the perfect parts that compliment your truck or jeep to help you standout among the rest. Interested in some info on any of the trucks pictured on the website? Give us a call today!
+        </p>
+        <a
+          href="/request_quote"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          <button
+            className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none text-base text-white bg-red-100 hover:bg-red-200"
+            type="button"
+          >
+            Request a Custom Quote
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="bg-gray-600"
+  >
+    <div
+      className="container mx-auto px-5 md:py-20 py-5 "
+    >
+      <footer
+        className="flex flex-wrap justify-between"
+      >
+        <div
+          className="w-full md:w-1/5 text-center"
+        >
+          <img
+            alt="Standout Specialties"
+            className="mx-auto"
+            height={79}
+            src="https://storage.googleapis.com/standout-specialties-public-assets/logo.png"
+            width={161}
+          />
+          <div
+            className="mt-10"
+          >
+            <a
+              aria-label="facebook"
+              className="social-icon mx-2 h-40px w-40px"
+              href="https://www.facebook.com/standoutspecialties"
+              rel="noopener noreferrer"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "height": "50px",
+                  "overflow": "hidden",
+                  "position": "relative",
+                  "verticalAlign": "middle",
+                  "width": "50px",
+                }
+              }
+              target="_blank"
+            >
+              <div
+                className="social-container"
+                style={
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  }
+                }
+              >
+                <svg
+                  className="social-svg"
+                  style={
+                    Object {
+                      "borderRadius": "50%",
+                      "fillRule": "evenodd",
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                  viewBox="0 0 64 64"
+                >
+                  <g
+                    className="social-svg-background"
+                    style={
+                      Object {
+                        "MozTransition": "fill 170ms ease-in-out",
+                        "OTransition": "fill 170ms ease-in-out",
+                        "WebkitTransition": "fill 170ms ease-in-out",
+                        "fill": "transparent",
+                        "msTransition": "fill 170ms ease-in-out",
+                        "transition": "fill 170ms ease-in-out",
+                      }
+                    }
+                  >
+                    <circle
+                      cx="32"
+                      cy="32"
+                      r="31"
+                    />
+                  </g>
+                  <g
+                    className="social-svg-icon"
+                    style={
+                      Object {
+                        "MozTransition": "fill 170ms ease-in-out",
+                        "OTransition": "fill 170ms ease-in-out",
+                        "WebkitTransition": "fill 170ms ease-in-out",
+                        "fill": "transparent",
+                        "msTransition": "fill 170ms ease-in-out",
+                        "transition": "fill 170ms ease-in-out",
+                      }
+                    }
+                  >
+                    <path
+                      d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z"
+                    />
+                  </g>
+                  <g
+                    className="social-svg-mask"
+                    style={
+                      Object {
+                        "MozTransition": "fill 170ms ease-in-out",
+                        "OTransition": "fill 170ms ease-in-out",
+                        "WebkitTransition": "fill 170ms ease-in-out",
+                        "fill": "#FFFFFF",
+                        "msTransition": "fill 170ms ease-in-out",
+                        "transition": "fill 170ms ease-in-out",
+                      }
+                    }
+                  >
+                    <path
+                      d="M0,0v64h64V0H0z M39.6,22l-2.8,0c-2.2,0-2.6,1.1-2.6,2.6V28h5.3l-0.7,5.3h-4.6V47h-5.5V33.3H24V28h4.6V24 c0-4.6,2.8-7,6.9-7c2,0,3.6,0.1,4.1,0.2V22z"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </a>
+            <a
+              aria-label="instagram"
+              className="social-icon mx-2 h-40px w-40px"
+              href="https://www.instagram.com/standoutspecialties"
+              rel="noopener noreferrer"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "height": "50px",
+                  "overflow": "hidden",
+                  "position": "relative",
+                  "verticalAlign": "middle",
+                  "width": "50px",
+                }
+              }
+              target="_blank"
+            >
+              <div
+                className="social-container"
+                style={
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  }
+                }
+              >
+                <svg
+                  className="social-svg"
+                  style={
+                    Object {
+                      "borderRadius": "50%",
+                      "fillRule": "evenodd",
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                  viewBox="0 0 64 64"
+                >
+                  <g
+                    className="social-svg-background"
+                    style={
+                      Object {
+                        "MozTransition": "fill 170ms ease-in-out",
+                        "OTransition": "fill 170ms ease-in-out",
+                        "WebkitTransition": "fill 170ms ease-in-out",
+                        "fill": "transparent",
+                        "msTransition": "fill 170ms ease-in-out",
+                        "transition": "fill 170ms ease-in-out",
+                      }
+                    }
+                  >
+                    <circle
+                      cx="32"
+                      cy="32"
+                      r="31"
+                    />
+                  </g>
+                  <g
+                    className="social-svg-icon"
+                    style={
+                      Object {
+                        "MozTransition": "fill 170ms ease-in-out",
+                        "OTransition": "fill 170ms ease-in-out",
+                        "WebkitTransition": "fill 170ms ease-in-out",
+                        "fill": "transparent",
+                        "msTransition": "fill 170ms ease-in-out",
+                        "transition": "fill 170ms ease-in-out",
+                      }
+                    }
+                  >
+                    <path
+                      d="M43.5,29.7h-2.6c0.2,0.7,0.3,1.5,0.3,2.3 c0,5.1-4.1,9.2-9.2,9.2c-5.1,0-9.2-4.1-9.2-9.2c0-0.8,0.1-1.6,0.3-2.3h-2.6v12.7c0,0.6,0.5,1.2,1.2,1.2h20.8c0.6,0,1.2-0.5,1.2-1.2 V29.7z M43.5,21.6c0-0.6-0.5-1.2-1.2-1.2h-3.5c-0.6,0-1.2,0.5-1.2,1.2v3.5c0,0.6,0.5,1.2,1.2,1.2h3.5c0.6,0,1.2-0.5,1.2-1.2V21.6z  M32,26.2c-3.2,0-5.8,2.6-5.8,5.8c0,3.2,2.6,5.8,5.8,5.8s5.8-2.6,5.8-5.8C37.8,28.8,35.2,26.2,32,26.2 M43.5,47H20.5 c-1.9,0-3.5-1.6-3.5-3.5V20.5c0-1.9,1.5-3.5,3.5-3.5h23.1c1.9,0,3.5,1.5,3.5,3.5v23.1C47,45.4,45.5,47,43.5,47"
+                    />
+                  </g>
+                  <g
+                    className="social-svg-mask"
+                    style={
+                      Object {
+                        "MozTransition": "fill 170ms ease-in-out",
+                        "OTransition": "fill 170ms ease-in-out",
+                        "WebkitTransition": "fill 170ms ease-in-out",
+                        "fill": "#FFFFFF",
+                        "msTransition": "fill 170ms ease-in-out",
+                        "transition": "fill 170ms ease-in-out",
+                      }
+                    }
+                  >
+                    <path
+                      d="M41.2,32c0,5.1-4.1,9.2-9.2,9.2c-5.1,0-9.2-4.1-9.2-9.2c0-0.8,0.1-1.6,0.3-2.3h-2.6v12.7c0,0.6,0.5,1.2,1.2,1.2 h20.8c0.6,0,1.2-0.5,1.2-1.2V29.7h-2.6C41.1,30.4,41.2,31.2,41.2,32z M32,37.8c3.2,0,5.8-2.6,5.8-5.8c0-3.2-2.6-5.8-5.8-5.8 c-3.2,0-5.8,2.6-5.8,5.8C26.2,35.2,28.8,37.8,32,37.8z M42.4,20.5h-3.5c-0.6,0-1.2,0.5-1.2,1.2v3.5c0,0.6,0.5,1.2,1.2,1.2h3.5 c0.6,0,1.2-0.5,1.2-1.2v-3.5C43.5,21,43,20.5,42.4,20.5z M0,0v64h64V0H0z M47,43.5c0,1.9-1.5,3.5-3.5,3.5H20.5 c-1.9,0-3.5-1.6-3.5-3.5V20.5c0-1.9,1.5-3.5,3.5-3.5h23.1c1.9,0,3.5,1.5,3.5,3.5V43.5z"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </a>
+            <a
+              aria-label="youtube"
+              className="social-icon mx-2 h-40px w-40px"
+              href="https://www.youtube.com/channel/UC_L8_2r214VcNWAHeV8nMXw"
+              rel="noopener noreferrer"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "height": "50px",
+                  "overflow": "hidden",
+                  "position": "relative",
+                  "verticalAlign": "middle",
+                  "width": "50px",
+                }
+              }
+              target="_blank"
+            >
+              <div
+                className="social-container"
+                style={
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  }
+                }
+              >
+                <svg
+                  className="social-svg"
+                  style={
+                    Object {
+                      "borderRadius": "50%",
+                      "fillRule": "evenodd",
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }
+                  viewBox="0 0 64 64"
+                >
+                  <g
+                    className="social-svg-background"
+                    style={
+                      Object {
+                        "MozTransition": "fill 170ms ease-in-out",
+                        "OTransition": "fill 170ms ease-in-out",
+                        "WebkitTransition": "fill 170ms ease-in-out",
+                        "fill": "transparent",
+                        "msTransition": "fill 170ms ease-in-out",
+                        "transition": "fill 170ms ease-in-out",
+                      }
+                    }
+                  >
+                    <circle
+                      cx="32"
+                      cy="32"
+                      r="31"
+                    />
+                  </g>
+                  <g
+                    className="social-svg-icon"
+                    style={
+                      Object {
+                        "MozTransition": "fill 170ms ease-in-out",
+                        "OTransition": "fill 170ms ease-in-out",
+                        "WebkitTransition": "fill 170ms ease-in-out",
+                        "fill": "transparent",
+                        "msTransition": "fill 170ms ease-in-out",
+                        "transition": "fill 170ms ease-in-out",
+                      }
+                    }
+                  >
+                    <path
+                      d="M46.7,26c0,0-0.3-2.1-1.2-3c-1.1-1.2-2.4-1.2-3-1.3C38.3,21.4,32,21.4,32,21.4h0 c0,0-6.3,0-10.5,0.3c-0.6,0.1-1.9,0.1-3,1.3c-0.9,0.9-1.2,3-1.2,3S17,28.4,17,30.9v2.3c0,2.4,0.3,4.9,0.3,4.9s0.3,2.1,1.2,3 c1.1,1.2,2.6,1.2,3.3,1.3c2.4,0.2,10.2,0.3,10.2,0.3s6.3,0,10.5-0.3c0.6-0.1,1.9-0.1,3-1.3c0.9-0.9,1.2-3,1.2-3s0.3-2.4,0.3-4.9 v-2.3C47,28.4,46.7,26,46.7,26z M28.9,35.9l0-8.4l8.1,4.2L28.9,35.9z"
+                    />
+                  </g>
+                  <g
+                    className="social-svg-mask"
+                    style={
+                      Object {
+                        "MozTransition": "fill 170ms ease-in-out",
+                        "OTransition": "fill 170ms ease-in-out",
+                        "WebkitTransition": "fill 170ms ease-in-out",
+                        "fill": "#FFFFFF",
+                        "msTransition": "fill 170ms ease-in-out",
+                        "transition": "fill 170ms ease-in-out",
+                      }
+                    }
+                  >
+                    <path
+                      d="M0,0v64h64V0H0z M47,33.1c0,2.4-0.3,4.9-0.3,4.9s-0.3,2.1-1.2,3c-1.1,1.2-2.4,1.2-3,1.3 C38.3,42.5,32,42.6,32,42.6s-7.8-0.1-10.2-0.3c-0.7-0.1-2.2-0.1-3.3-1.3c-0.9-0.9-1.2-3-1.2-3S17,35.6,17,33.1v-2.3 c0-2.4,0.3-4.9,0.3-4.9s0.3-2.1,1.2-3c1.1-1.2,2.4-1.2,3-1.3c4.2-0.3,10.5-0.3,10.5-0.3h0c0,0,6.3,0,10.5,0.3c0.6,0.1,1.9,0.1,3,1.3 c0.9,0.9,1.2,3,1.2,3s0.3,2.4,0.3,4.9V33.1z M28.9,35.9l8.1-4.2l-8.1-4.2L28.9,35.9z"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          className="md:flex flex-col hidden"
+        >
+          <p
+            className="font-secondary font-normal text-red-100 text-sm font-extrabold pb-6"
+          >
+            Our Site
+          </p>
+          <a
+            href="/store"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            <p
+              className="font-secondary font-normal text-white text-sm pt-5"
+            >
+              Store
+            </p>
+          </a>
+          <a
+            href="/brands"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            <p
+              className="font-secondary font-normal text-white text-sm pt-5"
+            >
+              Brands
+            </p>
+          </a>
+        </div>
+        <div
+          className="md:flex flex-col hidden"
+        >
+          <p
+            className="font-secondary font-normal text-red-100 text-sm font-extrabold pb-6"
+          >
+            Our Site
+          </p>
+          <a
+            href="/contact"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            <p
+              className="font-secondary font-normal text-white text-sm pt-5"
+            >
+              Contact
+            </p>
+          </a>
+          <a
+            href="/request_quote"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            <p
+              className="font-secondary font-normal text-white text-sm pt-5"
+            >
+              Request a Quote
+            </p>
+          </a>
+        </div>
+        <div
+          className="flex flex-col"
+        >
+          <p
+            className="font-secondary font-normal text-red-100 text-sm font-extrabold pb-6"
+          >
+            Working Hours
+          </p>
+          <p
+            className="font-secondary font-normal text-gray-200 text-sm uppercase font-bold pt-5"
+          >
+            Monday - Friday
+              
+            <span
+              className="text-white"
+            >
+              9:30-6
+            </span>
+          </p>
+          <p
+            className="font-secondary font-normal text-gray-200 text-sm uppercase font-bold pt-5"
+          >
+            Saturday
+              
+            <span
+              className="text-white"
+            >
+              9:30-2
+            </span>
+          </p>
+          <hr
+            className="my-5 w-full mx-auto border-2 border-solid border-red-100"
+          />
+          <p
+            className="font-secondary font-normal text-gray-200 text-sm"
+          >
+            4011 Oregon Pike
+            <br />
+            Ephrata
+            , 
+            PA
+             
+            17522
+          </p>
+        </div>
+        <div
+          className="flex flex-col"
+        >
+          <p
+            className="font-secondary font-normal text-red-100 text-sm font-extrabold pb-6"
+          >
+            Subscribe for News and Upcoming Events
+          </p>
+          <form
+            className="font-secondary"
+            onSubmit={[Function]}
+          >
+            <div
+              className="flex flex-wrap my-3"
+            >
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full"
+              >
+                <input
+                  className="text-sm text-gray-200 p-3 focus:outline-none w-full h-50px bg-gray-50 border border-solid border-gray-100"
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="Email"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="pt-2 px-2 box-border pb-5 w-full"
+              >
+                <button
+                  className="font-secondary font-bold py-2 px-5 uppercase disabled:opacity-75 disabled:cursor-not-allowed focus:outline-none h-full w-full text-sm text-white bg-red-100 hover:bg-red-200"
+                  disabled={false}
+                  type="submit"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </footer>
+    </div>
+  </div>,
+  <div
+    className="react-toast-notifications__container css-mrh2d-ToastContainer"
+  />,
+]
+`;

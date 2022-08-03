@@ -1,0 +1,30 @@
+.sos-fancy-select {
+    &__options {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 99;
+        width: 100vw;
+        max-width: 10rem;
+        border-top: 0.25rem solid transparent;
+        overflow: auto;
+        max-height: 15rem;
+    }
+
+    &__value {
+        display: flex;
+        align-items: center;
+
+        &:after {
+            content: '';
+            display: block;
+            width: 4px;
+            height: 4px;
+            border-bottom: 1px solid currentColor;
+            border-left: 1px solid currentColor;
+            transform: rotate(-45deg);
+            flex: 0 0 auto;
+            margin-left: 0.25rem;
+        }
+    }
+}

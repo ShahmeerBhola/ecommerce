@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputGroup component it doesnt render error message if touched is false and error is non-null 1`] = `
+<div
+  className="pt-2 px-2 box-border pb-5"
+>
+  <input
+    type="text"
+  />
+</div>
+`;
+
+exports[`InputGroup component it doesnt render error message if touched is false and error is null 1`] = `
+<div
+  className="pt-2 px-2 box-border pb-5"
+>
+  <input
+    type="text"
+  />
+</div>
+`;
+
+exports[`InputGroup component it doesnt render error message if touched is true and error is null 1`] = `
+<div
+  className="pt-2 px-2 box-border pb-5"
+>
+  <input
+    type="text"
+  />
+</div>
+`;
+
+exports[`InputGroup component it renders error message if touched is true and error is non-null 1`] = `
+<div
+  className="pt-2 px-2 box-border"
+>
+  <input
+    type="text"
+  />
+  <p
+    className="text-red-100 text-xs pt-1"
+  >
+    There is an error!
+  </p>
+</div>
+`;
+
+exports[`InputGroup component it renders properly with className prop 1`] = `
+<div
+  className="pt-2 px-2 box-border pb-5 my-default-class"
+>
+  <input
+    type="text"
+  />
+</div>
+`;
+
+exports[`InputGroup component it renders properly with default props 1`] = `
+<div
+  className="pt-2 px-2 box-border pb-5"
+>
+  <input
+    type="text"
+  />
+</div>
+`;

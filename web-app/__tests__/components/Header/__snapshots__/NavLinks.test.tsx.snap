@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavLinks component it renders properly when mobile is false 1`] = `
+<nav
+  className="nav-tag-class"
+>
+  <a
+    className="a-tag-class"
+    href="/store"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    Store
+  </a>
+  <a
+    className="a-tag-class"
+    href="/brands"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    Brands
+  </a>
+  <a
+    className="a-tag-class"
+    href="/contact"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    Contact
+  </a>
+  <a
+    className="a-tag-class"
+    href="/cart"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <div
+      className="relative"
+    >
+      <svg
+        fill="none"
+        height="34"
+        viewBox="0 0 38 34"
+        width="34"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.01167 26.2134H23.2637L24.2063 22.5357H4.2741L0 5.86091H28.4804L29.9827 0H38V2.18315H31.7304L25.5486 26.3006C27.3481 26.6775 28.7015 28.2406 28.7015 30.1067C28.7015 32.2535 26.9108 34 24.7097 34C22.5086 34 20.718 32.2534 20.718 30.1067C20.718 29.4935 20.8646 28.9131 21.1247 28.3966H11.5967C11.8569 28.9131 12.0034 29.4935 12.0034 30.1067C12.0034 32.2535 10.2127 34 8.01167 34C5.81065 34 4.0199 32.2534 4.0199 30.1067C4.01997 27.96 5.81072 26.2134 8.01167 26.2134Z"
+          fill="white"
+        />
+      </svg>
+    </div>
+  </a>
+</nav>
+`;
+
+exports[`NavLinks component it renders properly when mobile is true 1`] = `
+<nav
+  className="nav-tag-class"
+>
+  <a
+    className="a-tag-class"
+    href="/store"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    Store
+  </a>
+  <a
+    className="a-tag-class"
+    href="/brands"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    Brands
+  </a>
+  <a
+    className="a-tag-class"
+    href="/contact"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    Contact
+  </a>
+  <a
+    className="a-tag-class"
+    href="/cart"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    Cart
+  </a>
+</nav>
+`;

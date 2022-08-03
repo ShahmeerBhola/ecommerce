@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoBackground component it renders properly 1`] = `
+<div
+  className="bg-no-repeat bg-cover"
+  style={
+    Object {
+      "backgroundImage": "url(my-truck.jpg)",
+    }
+  }
+>
+  <p>
+    Hello
+  </p>
+</div>
+`;
+
+exports[`PhotoBackground component it renders properly when cover prop is false 1`] = `
+<div
+  className="bg-no-repeat"
+  style={
+    Object {
+      "backgroundImage": "url(my-truck3.jpg)",
+    }
+  }
+>
+  <p>
+    Hello
+  </p>
+</div>
+`;
+
+exports[`PhotoBackground component it renders properly when cover prop is true 1`] = `
+<div
+  className="bg-no-repeat bg-cover"
+  style={
+    Object {
+      "backgroundImage": "url(my-truck3.jpg)",
+    }
+  }
+>
+  <p>
+    Hello
+  </p>
+</div>
+`;
+
+exports[`PhotoBackground component it renders properly with className props 1`] = `
+<div
+  className="bg-no-repeat hello-there bg-cover"
+  style={
+    Object {
+      "backgroundImage": "url(my-truck2.jpg)",
+    }
+  }
+>
+  <p>
+    Hello
+  </p>
+</div>
+`;
