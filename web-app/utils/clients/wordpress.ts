@@ -264,13 +264,16 @@ class WordPressRestAPIClient {
         });
         return data;
     }
-        async postTruck(year: string, make: string, model: string, trim: string,hub:string,bolt_pattern:string): Promise<string[]> {
-        const { data } = await this._makeRequest<string[], []>({
-            url: 'trucks/addtruck',
+        async postTruck(paramdata : any):Promise<boolean> {
+        const { data } = await this._makeRequest<API.TruckResponse, {}>({
+            url: 'addtruck',
             errorReturn: [],
-            queryParams: { year },
+            body: { year : paramdata.year, make:paramdata.make,model:paramdata.model ,trim :paramdata.trim,hub:paramdata.hub,bolt_pattern:paramdata.bolt_pattern },
+            method:"POST",
         });
-        return data;
+        return this._isSuccessfulResponse(data);
+
+        
     }
 
     async getTruckModels(year: string, make: string): Promise<string[]> {

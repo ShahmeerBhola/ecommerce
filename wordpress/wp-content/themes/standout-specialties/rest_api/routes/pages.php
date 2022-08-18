@@ -3,7 +3,6 @@
 
 require_once(__DIR__ . '/../utils.php');
 
-
 function home_page_data($request)
 {
     $wheel_brands = get_product_category_brands('wheels');

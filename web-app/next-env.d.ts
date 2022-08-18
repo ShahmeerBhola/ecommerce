@@ -267,6 +267,7 @@ namespace API {
     type ContactFormSubmissionResponse = SuccessfulResponse;
     type QuoteRequestFormSubmissionResponse = SuccessfulResponse;
     type BrandAmbassadorFormSubmissionResponse = SuccessfulResponse;
+    type TruckResponse=SuccessfulResponse;
 
     type RequiresUiAction = {
         payment_intent_client_secret: string;

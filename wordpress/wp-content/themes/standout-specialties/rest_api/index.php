@@ -388,7 +388,7 @@ function register_custom_endpoints()
                 'trim' => $truck_trim_arg,
             ),
         ),
-        '/trucks/addTruck' => array(
+        '/addTruck' => array(
             'methods' => 'POST',
             'callback' => 'post_truck',
             'args' => array(
@@ -400,8 +400,7 @@ function register_custom_endpoints()
                 'make' => array(
                     'required' => true,
                     'type' => 'string',
-                    'description' => 'The user\'s email address',
-                    'format' => 'email',
+                    'description' => 'The user\'s make',
                 ),
                 'model' => array(
                     'required' => false,

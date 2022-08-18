@@ -10,7 +10,7 @@ function productByYear() {
     };
     const submitHandler = async (e) => {
         e.preventDefault();
-        // const success = await axio https://wordpress.standoutspecialties.com/;
+        const success = await WordPressClient.postTruck(data);
         if (success) {
             console.log(success);
         } else {

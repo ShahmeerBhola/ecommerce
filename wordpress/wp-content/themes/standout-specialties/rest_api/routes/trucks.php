@@ -138,8 +138,26 @@ function get_truck_bolt_pattern($request)
 
 function post_truck($request)
 {
-     return make_response("
-        INSERT INTO TRUCKS (year, make, model, trim, hub, bolt_pattern) VALUES
-        ('" . $request['year'] . "','" . $request['make'] . "','" . $request['model'] . "', '" . $request['trim'] . "','" . $request['hub'] . "','" . $request['bolt_pattern'] . "')
-    ");
+    if(isset($_POST['insert']))
+    {
+        $y=$_POST[.$request['year'],]
+        $m=$_POST[.$request['make'].]
+        $d=$_POST[.$request['model'].]
+        $t=$_POST[.$request['trim'].]
+        $h=$_POST[.$request['hub'].]
+        $b=$_POST[.$request['bolt_pattern'].]
+        global $wpdb;
+        $sql=$wpdb->insert('trucks',array("year"=>$y,"make"=>$m,"model"=>$d,"trim"=>$t,"hub"=>$h,"bolt_pattern"=>$b))
+        if($sql==true){
+            return make_response(array('successful' => $sql));
+        }
+        else{
+            return make_response(array('successful' => $sql));
+        }
+
+    }
+    
+    // successful= "
+    // INSERT INTO TRUCKS (year, make, model, trim, hub, bolt_pattern) VALUES
+    //     (" . $request['year'] . "," . $request['make'] . "," . $request['model'] . ", " . $request['trim'] . "," . $request['hub'] . "," . $request['bolt_pattern'] . ")"
 }
